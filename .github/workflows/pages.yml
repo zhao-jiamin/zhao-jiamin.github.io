@@ -4,10 +4,21 @@ on:
   push:
     branches:
       - main
+    paths-ignore:
+      - ".nojekyll"
+      - "404.html"
+      - "index.html"
+      - "assets/**"
+      - "cv/**"
+      - "research/**"
+      - "search/**"
+      - "sitemap.xml"
+      - "sitemap.xml.gz"
+      - "teaching/**"
   workflow_dispatch:
 
 permissions:
-  contents: read
+  contents: write
   pages: write
   id-token: write
 
@@ -33,6 +44,24 @@ jobs:
 
       - name: Build site
         run: mkdocs build --strict
+
+      - name: Copy built site to repository root
+        run: |
+          rm -rf 404.html index.html assets cv research search sitemap.xml sitemap.xml.gz teaching
+          cp -R site/. .
+          touch .nojekyll
+
+      - name: Commit built site files
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add 404.html index.html assets cv research search sitemap.xml sitemap.xml.gz teaching .nojekyll
+          if git diff --cached --quiet; then
+            echo "Built site files are already up to date."
+          else
+            git commit -m "Build MkDocs site [skip ci]"
+            git push
+          fi
 
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v5
