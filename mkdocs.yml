@@ -1,0 +1,72 @@
+site_name: Jiamin Zhao
+site_description: Personal academic website for Jiamin Zhao
+site_url: https://zhao-jiamin.github.io/
+repo_url: https://github.com/zhao-jiamin/zhao-jiamin.github.io
+repo_name: zhao-jiamin/zhao-jiamin.github.io
+copyright: Copyright &copy; 2026 Jiamin Zhao
+
+theme:
+  name: material
+  language: en
+  logo: assets/images/monogram.svg
+  favicon: assets/images/monogram.svg
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.indexes
+    - navigation.top
+    - toc.follow
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: teal
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - scheme: slate
+      primary: indigo
+      accent: teal
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+  font:
+    text: Inter
+    code: JetBrains Mono
+
+extra_css:
+  - assets/stylesheets/extra.css
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/zhao-jiamin
+      name: GitHub
+
+plugins:
+  - search
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.tasklist:
+      custom_checkbox: true
+
+nav:
+  - Home: index.md
+  - Research: research.md
+  - Publications: publications.md
+  - Teaching: teaching.md
+  - CV: cv.md
+  - Contact: contact.md

@@ -1,0 +1,129 @@
+:root {
+  --zj-ink: #172033;
+  --zj-muted: #5d687a;
+  --zj-line: #d9e2ec;
+  --zj-surface: #f7fafc;
+  --zj-accent: #0f766e;
+  --zj-warm: #b45309;
+}
+
+.homepage-hero {
+  align-items: center;
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: minmax(0, 1fr) minmax(220px, 320px);
+  margin: 1rem 0 2.5rem;
+  min-height: 22rem;
+}
+
+.homepage-hero__content h1 {
+  color: var(--zj-ink);
+  font-size: clamp(2.4rem, 4rem, 4rem);
+  line-height: 1.05;
+  margin: 0;
+}
+
+.eyebrow {
+  color: var(--zj-accent);
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0;
+  margin-bottom: 0.65rem;
+  text-transform: uppercase;
+}
+
+.lead {
+  color: var(--zj-muted);
+  font-size: 1.15rem;
+  line-height: 1.65;
+  margin: 1rem 0 1.5rem;
+  max-width: 42rem;
+}
+
+.homepage-hero__links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+.profile-panel {
+  background: linear-gradient(145deg, #ffffff, var(--zj-surface));
+  border: 1px solid var(--zj-line);
+  border-radius: 8px;
+  box-shadow: 0 18px 45px rgba(23, 32, 51, 0.08);
+  padding: 1.25rem;
+  text-align: center;
+}
+
+.profile-panel img {
+  border-radius: 8px;
+  display: block;
+  height: auto;
+  margin: 0 auto 1rem;
+  max-width: 12rem;
+  width: 100%;
+}
+
+.profile-panel__name {
+  color: var(--zj-ink);
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin: 0;
+}
+
+.profile-panel__role {
+  color: var(--zj-muted);
+  margin: 0.35rem 0 0;
+}
+
+.feature-grid {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  margin: 1.5rem 0;
+}
+
+.feature-grid article {
+  border: 1px solid var(--zj-line);
+  border-radius: 8px;
+  padding: 1rem;
+}
+
+.feature-grid h3 {
+  color: var(--zj-ink);
+  margin-top: 0;
+}
+
+.feature-grid p {
+  color: var(--zj-muted);
+  margin-bottom: 0;
+}
+
+[data-md-color-scheme="slate"] {
+  --zj-ink: #edf2f7;
+  --zj-muted: #b8c2d6;
+  --zj-line: #334155;
+  --zj-surface: #111827;
+  --zj-accent: #2dd4bf;
+  --zj-warm: #f59e0b;
+}
+
+[data-md-color-scheme="slate"] .profile-panel {
+  background: linear-gradient(145deg, #172033, var(--zj-surface));
+  box-shadow: none;
+}
+
+@media screen and (max-width: 760px) {
+  .homepage-hero {
+    grid-template-columns: 1fr;
+    min-height: auto;
+  }
+
+  .homepage-hero__content h1 {
+    font-size: 2.55rem;
+  }
+
+  .feature-grid {
+    grid-template-columns: 1fr;
+  }
+}
