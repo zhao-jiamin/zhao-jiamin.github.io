@@ -1,5 +1,5 @@
 site_name: Jiamin Zhao
-site_description: Personal academic website for Jiamin Zhao
+site_description: Academic website for Jiamin Zhao
 site_url: https://zhao-jiamin.github.io/
 repo_url: https://github.com/zhao-jiamin/zhao-jiamin.github.io
 repo_name: zhao-jiamin/zhao-jiamin.github.io
@@ -20,18 +20,9 @@ theme:
     - search.highlight
     - content.code.copy
   palette:
-    - scheme: default
-      primary: indigo
-      accent: teal
-      toggle:
-        icon: material/weather-night
-        name: Switch to dark mode
-    - scheme: slate
-      primary: indigo
-      accent: teal
-      toggle:
-        icon: material/weather-sunny
-        name: Switch to light mode
+    scheme: default
+    primary: white
+    accent: teal
   font:
     text: Inter
     code: JetBrains Mono
@@ -64,9 +55,7 @@ markdown_extensions:
       custom_checkbox: true
 
 nav:
-  - Home: index.md
+  - About: index.md
   - Research: research.md
-  - Publications: publications.md
   - Teaching: teaching.md
   - CV: cv.md
-  - Contact: contact.md

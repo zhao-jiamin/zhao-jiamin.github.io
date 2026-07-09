@@ -1,20 +1,23 @@
-# Curriculum Vitae
+# CV
 
-## Education
+[Download CV](assets/cv.pdf){ .md-button .md-button--primary }
 
-- Degree, Field, Institution, Year
-- Degree, Field, Institution, Year
+The current PDF is a placeholder. Replace `docs/assets/cv.pdf` with your latest
+CV, keeping the same filename, and this button will point to the updated file.
 
-## Appointments
+## Snapshot
 
-- Position, Institution, Dates
-- Position, Institution, Dates
+### Education
 
-## Awards and Funding
+- Ph.D. Candidate in Accounting, [University Name], [Expected Year]
+- Previous degree, [Institution], [Year]
 
-- Award or grant, Organization, Year
-- Award or grant, Organization, Year
+### Research Interests
 
-## Service
+- Voluntary disclosure
+- Public activism and stakeholder salience
+- Conference calls and managerial communication
 
-- Journal, conference, department, or professional service role
+### Academic Service
+
+- Add seminar organization, reviewing, department service, or conference service.

@@ -1,50 +1,50 @@
 ---
+title: About
 hide:
   - toc
 ---
 
-<section class="homepage-hero">
-  <div class="homepage-hero__content">
-    <p class="eyebrow">Academic Portfolio</p>
-    <h1>Jiamin Zhao</h1>
-    <p class="lead">
-      Researcher exploring questions at the intersection of methods, evidence,
-      and real-world impact.
-    </p>
-    <div class="homepage-hero__links">
-      <a class="md-button md-button--primary" href="research/">Research</a>
-      <a class="md-button" href="publications/">Publications</a>
-    </div>
-  </div>
-  <aside class="profile-panel" aria-label="Profile summary">
-    <img src="assets/images/monogram.svg" alt="Jiamin Zhao monogram" />
-    <p class="profile-panel__name">Jiamin Zhao</p>
-    <p class="profile-panel__role">Academic Researcher</p>
-  </aside>
+# About
+
+<!--
+To replace the profile image, save your photo as:
+docs/assets/images/profile.jpg
+Then update the image path below from profile-placeholder.svg to profile.jpg.
+-->
+
+<div class="about-layout" markdown="1">
+
+<aside class="profile-card" markdown="1">
+![Profile image placeholder for Jiamin Zhao](assets/images/profile-placeholder.svg){ .profile-photo }
+
+## Jiamin Zhao
+
+Ph.D. Candidate in Accounting
+
+[University Name]
+
+[CV](assets/cv.pdf){ .md-button .md-button--primary }
+</aside>
+
+<section class="about-copy" markdown="1">
+
+## Hello!
+
+I am a Ph.D. candidate in Accounting at [University Name]. My research examines
+how firms communicate with capital market participants and other stakeholders,
+with a focus on voluntary disclosure, public scrutiny, and the thematic content
+of managerial communication.
+
+My current job market paper studies how public activism shapes voluntary
+disclosure choices in conference calls. More broadly, I am interested in how
+information environments affect corporate reporting, stakeholder attention, and
+firm decision-making.
+
+Please replace the bracketed placeholders with your current affiliation,
+research interests, contact details, and job market information.
+
+**Email:** your.email@example.edu
+
 </section>
 
-## About
-
-I am an academic researcher. This site collects my research interests,
-publications, teaching, curriculum vitae, and contact information.
-
-## Highlights
-
-<div class="feature-grid">
-  <article>
-    <h3>Research</h3>
-    <p>Summarize your main research agenda, current projects, and collaborators.</p>
-  </article>
-  <article>
-    <h3>Publications</h3>
-    <p>List papers, preprints, conference work, and selected writing.</p>
-  </article>
-  <article>
-    <h3>Teaching</h3>
-    <p>Share courses, supervision, mentoring, and instructional materials.</p>
-  </article>
 </div>
-
-## News
-
-- 2026-07-09: Website scaffold created with Material for MkDocs.
