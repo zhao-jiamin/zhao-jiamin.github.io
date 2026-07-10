@@ -12,8 +12,10 @@ with GitHub Pages.
   image path in `docs/index.md`.
 - Replace the navbar logo by saving the official IESE Business School logo at
   `docs/assets/iese-logo.png`. Keep that filename, or update `theme.logo` in
-  `mkdocs.yml` if you choose a different asset. The current file is a
-  transparent placeholder so the site does not display a made-up IESE logo.
+  `mkdocs.yml` if you choose a different asset.
+- Update the Google Search Console verification tag by replacing the
+  `PASTE_GOOGLE_SEARCH_CONSOLE_VERIFICATION_CODE_HERE` value in
+  `overrides/main.html` with the verification code from Google.
 - Update the LinkedIn link by editing the `[LinkedIn](...)` link in
   `docs/index.md`.
 - Replace the CV by saving the latest PDF at `docs/assets/cv.pdf`.
@@ -46,3 +48,9 @@ Pushing to `main` runs the GitHub Actions workflow in
 `.github/workflows/pages.yml`. The workflow runs `mkdocs build --strict`, copies
 the built site to the repository root for the current GitHub Pages setup, and
 deploys the MkDocs artifact to GitHub Pages.
+
+## Search Indexing
+
+The site uses `site_url` in `mkdocs.yml`, which lets MkDocs generate
+`sitemap.xml`. The `docs/robots.txt` file allows indexing and points crawlers to
+the sitemap.

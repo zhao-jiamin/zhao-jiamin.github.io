@@ -46,7 +46,9 @@ body {
 
 .md-header__button.md-logo img,
 .md-header__button.md-logo svg {
-  height: 1.35rem;
+  height: 1.5rem;
+  max-width: 6.8rem;
+  object-fit: contain;
   width: auto;
 }
 
@@ -153,7 +155,7 @@ body {
 }
 
 .about-copy {
-  max-width: 40rem;
+  max-width: 44rem;
   padding-top: 0.2rem;
 }
 
@@ -165,8 +167,10 @@ body {
 
 .about-copy p {
   font-size: 0.86rem;
-  line-height: 1.8;
-  max-width: 38rem;
+  line-height: 1.85;
+  max-width: 42rem;
+  text-align: left;
+  text-wrap: pretty;
 }
 
 .paper-card,
