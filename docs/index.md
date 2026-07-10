@@ -37,6 +37,7 @@ Barcelona, Spain
 
 ## Hello!
 
+Welcome to my website. I am a Ph.D. student in Accounting at IESE Business School.
 My research examines how firms respond to stakeholder pressure, public activism,
 and sustainability-related challenges through disclosure and labor-market
 decisions. I use archival data, textual analysis, and machine-learning methods
