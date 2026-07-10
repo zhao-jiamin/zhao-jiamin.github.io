@@ -14,7 +14,7 @@ with GitHub Pages.
   `docs/assets/iese-logo.png`. Keep that filename, or update `theme.logo` in
   `mkdocs.yml` if you choose a different asset. The current file is a
   transparent placeholder so the site does not display a made-up IESE logo.
-- Update the LinkedIn link by editing the `[LinkedIn](#)` link in
+- Update the LinkedIn link by editing the `[LinkedIn](...)` link in
   `docs/index.md`.
 - Replace the CV by saving the latest PDF at `docs/assets/cv.pdf`.
 - Add or edit research papers in `docs/research.md`. Put paper PDFs or slides in

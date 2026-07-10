@@ -11,7 +11,7 @@ Profile photo source: docs/assets/images/profile.jpg
 Replace that file with a new image using the same filename, or update the image
 path below if you prefer a different filename.
 
-Replace the # link for LinkedIn when that profile is ready to share.
+LinkedIn profile: https://www.linkedin.com/in/jiamin-zhao-689607228/
 -->
 
 <div class="about-layout" markdown="1">
@@ -27,10 +27,8 @@ IESE Business School
 
 Barcelona, Spain
 
-[JZhao@iese.edu](mailto:JZhao@iese.edu)
-
 <div class="profile-contact" markdown="1">
-[Email](mailto:JZhao@iese.edu) <span aria-hidden="true">|</span> [LinkedIn](#)
+[Email](mailto:JZhao@iese.edu) <span aria-hidden="true">|</span> [LinkedIn](https://www.linkedin.com/in/jiamin-zhao-689607228/)
 </div>
 
 </aside>
