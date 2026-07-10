@@ -10,14 +10,6 @@
 
 **Authorship:** Single-authored
 
-<div class="paper-actions" markdown="1">
-[Draft](assets/how-does-public-activism-shape-voluntary-disclosure-20260404.pdf){ .md-button .md-button--primary }
-[Slides](#){ .md-button }
-[Abstract](#job-market-paper-abstract){ .md-button }
-</div>
-
-<span id="job-market-paper-abstract"></span>
-
 ??? abstract "Abstract"
     This paper examines how public activism shapes firms' voluntary disclosure
     choices in conference calls. Using textual analysis of earnings call

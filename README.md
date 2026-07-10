@@ -10,16 +10,23 @@ with GitHub Pages.
 - Replace the profile photo by saving a new image at
   `docs/assets/images/profile.jpg`. If you use a different filename, update the
   image path in `docs/index.md`.
+- Replace the navbar logo by saving the official IESE Business School logo at
+  `docs/assets/iese-logo.png`. Keep that filename, or update `theme.logo` in
+  `mkdocs.yml` if you choose a different asset. The current file is a
+  transparent placeholder so the site does not display a made-up IESE logo.
+- Update the LinkedIn link by editing the `[LinkedIn](#)` link in
+  `docs/index.md`.
 - Replace the CV by saving the latest PDF at `docs/assets/cv.pdf`.
 - Add or edit research papers in `docs/research.md`. Put paper PDFs or slides in
   `docs/assets/` and link to them from the relevant paper card.
 - Add or edit publications in `docs/publications.md`.
 - Update teaching information in `docs/teaching.md`.
+- Add or edit media mentions and short posts in `docs/insights.md`.
 - Update the top navigation in `mkdocs.yml`.
 
 The generated files in the repository root, such as `index.html`, `research/`,
-`publications/`, and `assets/`, are deployment output. Edit the source files in
-`docs/` and `mkdocs.yml` instead.
+`publications/`, `insights/`, and `assets/`, are deployment output. Edit the
+source files in `docs/` and `mkdocs.yml` instead.
 
 ## Local Development
 

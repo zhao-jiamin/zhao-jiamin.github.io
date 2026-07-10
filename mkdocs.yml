@@ -8,7 +8,7 @@ copyright: Copyright &copy; 2026 Jiamin Zhao
 theme:
   name: material
   language: en
-  logo: assets/images/monogram.svg
+  logo: assets/iese-logo.png
   favicon: assets/images/monogram.svg
   features:
     - navigation.tabs
@@ -59,4 +59,5 @@ nav:
   - Research: research.md
   - Publications: publications.md
   - Teaching: teaching.md
+  - Insights: insights.md
   - CV: cv.md
