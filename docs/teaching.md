@@ -4,10 +4,11 @@
 
 <div class="teaching-group" markdown="1">
 
-### Course Title
+### Cost Accounting
 
-Institution, term. Add a concise description of your responsibilities,
-enrollment, and course level.
+Undergraduate, Universitat Internacional de Catalunya, 2026
+
+**Evaluation:** 4.1/5
 
 </div>
 
@@ -15,24 +16,18 @@ enrollment, and course level.
 
 <div class="teaching-group" markdown="1">
 
-### Course Title
+### Global Operations
 
-Instructor, institution, term. Add responsibilities such as tutorials,
-recitations, grading, guest lectures, or student support.
-
-### Course Title
-
-Instructor, institution, term. Add responsibilities such as tutorials,
-recitations, grading, guest lectures, or student support.
+Master in Management, ESADE, Professor Annachiara Longoni, 2024-2026
 
 </div>
 
-## Thesis Supervision
+## Teaching Training
 
 <div class="teaching-group" markdown="1">
 
-### Student or Thesis Group
+### Case Teaching for Junior Professors
 
-Degree level, institution, year. Add the thesis topic or supervision role.
+Representative of the Ph.D. Program, IESE Business School, 2025
 
 </div>

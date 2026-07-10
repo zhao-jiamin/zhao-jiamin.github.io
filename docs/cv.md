@@ -1,23 +1,9 @@
 # CV
 
+You can download my CV below.
+
 [Download CV](assets/cv.pdf){ .md-button .md-button--primary }
 
-The current PDF is a placeholder. Replace `docs/assets/cv.pdf` with your latest
-CV, keeping the same filename, and this button will point to the updated file.
-
-## Snapshot
-
-### Education
-
-- Ph.D. Candidate in Accounting, [University Name], [Expected Year]
-- Previous degree, [Institution], [Year]
-
-### Research Interests
-
-- Voluntary disclosure
-- Public activism and stakeholder salience
-- Conference calls and managerial communication
-
-### Academic Service
-
-- Add seminar organization, reviewing, department service, or conference service.
+The PDF is stored at `docs/assets/cv.pdf`. Replace that file with the latest
+version of the CV whenever you want this page and the About-page CV button to
+point to an updated document.

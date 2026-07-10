@@ -8,6 +8,10 @@
   --zj-paper: #ffffff;
 }
 
+.md-main__inner {
+  margin-top: 1.2rem;
+}
+
 .md-header {
   border-bottom: 1px solid var(--zj-line);
   box-shadow: none;
@@ -46,26 +50,40 @@
   background: var(--zj-paper);
   border: 1px solid var(--zj-line);
   border-radius: 8px;
-  padding: 1.25rem;
-  text-align: center;
+  padding: 1.1rem;
 }
 
 .profile-card h2 {
   font-size: 1.25rem;
   margin: 1rem 0 0.25rem;
+  text-align: center;
 }
 
 .profile-card p {
   margin: 0.35rem 0;
+  text-align: center;
 }
 
 .profile-photo {
-  aspect-ratio: 1;
+  aspect-ratio: 4 / 5;
   border: 1px solid var(--zj-line);
   border-radius: 8px;
   display: block;
   margin: 0 auto;
   object-fit: cover;
+  object-position: 58% center;
+  width: 100%;
+}
+
+.profile-actions {
+  display: grid;
+  gap: 0.45rem;
+  margin-top: 1rem;
+}
+
+.profile-actions .md-button {
+  margin: 0;
+  text-align: center;
   width: 100%;
 }
 
@@ -79,6 +97,7 @@
 }
 
 .paper-card,
+.publication-card,
 .teaching-group,
 .project-list {
   background: var(--zj-paper);
@@ -93,6 +112,7 @@
 }
 
 .paper-card h3,
+.publication-card h3,
 .project-list h3,
 .teaching-group h3 {
   margin-top: 0;
@@ -119,6 +139,10 @@
 
 .paper-actions .md-button {
   margin: 0;
+}
+
+.publication-card strong {
+  color: var(--zj-ink);
 }
 
 .paper-figure {

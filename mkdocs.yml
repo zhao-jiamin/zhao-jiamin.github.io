@@ -1,5 +1,5 @@
 site_name: Jiamin Zhao
-site_description: Academic website for Jiamin Zhao
+site_description: Academic website for Jiamin Zhao, Ph.D. Candidate in Accounting at IESE Business School
 site_url: https://zhao-jiamin.github.io/
 repo_url: https://github.com/zhao-jiamin/zhao-jiamin.github.io
 repo_name: zhao-jiamin/zhao-jiamin.github.io
@@ -57,5 +57,6 @@ markdown_extensions:
 nav:
   - About: index.md
   - Research: research.md
+  - Publications: publications.md
   - Teaching: teaching.md
   - CV: cv.md
