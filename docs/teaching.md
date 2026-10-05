@@ -8,7 +8,7 @@
 
 Undergraduate, Universitat Internacional de Catalunya, 2026
 
-**Evaluation:** 4.1/5
+**Student Evaluation:** 4.03/5
 
 </div>
 
@@ -18,7 +18,9 @@ Undergraduate, Universitat Internacional de Catalunya, 2026
 
 ### Global Operations
 
-Master in Management, ESADE, Professor Annachiara Longoni, 2024-2026
+Master's, ESADE Business School, Teaching Assistant, 2024-2026
+
+**Instructor:** Prof. Annachiara Longoni
 
 </div>
 

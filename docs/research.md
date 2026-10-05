@@ -6,23 +6,24 @@
 
 <span class="paper-label">Job Market Paper</span>
 
-### How Does Public Activism Shape Voluntary Disclosure? Evidence from the Thematic Contents of Conference Calls
+### Public Activism and Labor-related Corporate Disclosure
 
 **Authorship:** Single-authored
 
 ??? abstract "Abstract"
-    This paper examines how public activism shapes firms' voluntary disclosure
-    choices in conference calls. Using textual analysis of earnings call
-    transcripts, I study whether local public activism changes the thematic
-    content of managerial communication, with a focus on stakeholder salience,
-    public scrutiny, and managers' attention to non-financial issues.
+    This paper examines how the surrounding public environment shapes
+    labor-related corporate disclosure. Greater non-firm-specific labor public
+    activism around corporate headquarters is associated with less discussion of
+    current labor-related operating conditions relative to talent-management
+    information in subsequent earnings calls. The findings show that firms adjust
+    disclosure to changes in the surrounding public environment even when the
+    underlying activism does not directly target the firm.
 
-**Award:** The Sue Hrasky Best PhD Paper Prize
+**Award:** The Sue Hrasky Best PhD Paper Prize, BAFA, 2026.
 
-**Selected presentations:** Financial Reporting and Business Communication
-Conference; Journal of International Accounting Research Conference; European
-Accounting Association Doctoral Colloquium; British Accounting and Finance
-Association Annual Conference.
+**Selected presentations:** EAA Doctoral Colloquium 2026; IESE Seminar 2026;
+BAFA Annual Conference 2026; JIAR Annual Conference 2026; University of Zurich
+DAR Workshop 2025.
 
 </div>
 
@@ -30,43 +31,58 @@ Association Annual Conference.
 
 <div class="paper-card" markdown="1">
 
-### Do NGO Campaigns Affect Firms' Labor Markets? Evidence from Employee Reviews, Job Postings, and Worker Flows
-
-**Coauthor:** Igor Kadach
-
-??? abstract "Abstract"
-    This paper examines whether NGO activism affects firms through the labor
-    market. Combining NGO campaign data with employee reviews, job postings, and
-    worker-flow outcomes, the paper studies how external stakeholder pressure
-    shapes employees' perceptions, firms' labor demand, and worker mobility.
-
-</div>
-
-<div class="paper-card" markdown="1">
-
-### Mapping Digital Opacity: Corporate Restrictions on Automated Web Access
+### Mapping Corporate Digital Information-Access Policies: Evidence from Web Access Directives
 
 **Coauthors:** Long Cheng and Igor Kadach
 
+**Status:** Manuscript in preparation
+
 ??? abstract "Abstract"
-    This paper uses a unique dataset of U.S. firms from 2001 to 2025 to revisit
-    the classic trade-off between information benefits and proprietary costs in
-    the digital era. We examine how firms restrict automated web access and
-    study what these restrictions reveal about corporate transparency,
-    information access, and strategic disclosure choices.
+    This paper constructs a novel historical measure of corporate
+    information-access policies from 2001 to 2024. We document how public firms
+    govern automated access to information on their websites, characterize the
+    long-run evolution and composition of these policies, and validate the
+    measure using externally documented changes in web-access rules. The evidence
+    reveals a previously underexplored dimension of corporate information policy:
+    firms not only decide what information to make public, but also govern the
+    scope and terms of automated access to that information.
+
+</div>
+
+## Work in Progress
+
+<div class="paper-card" markdown="1">
+
+### Stakeholder Pressure and the Supply of Corporate Information
+
+**Authorship:** Single-authored
+
+??? abstract "Abstract"
+    This paper examines how firms adjust disclosure when directly targeted by
+    stakeholder pressure. Labor targeting is associated with less discussion of
+    labor operating conditions, whereas environmental targeting is associated
+    with more climate-transition discussion. Employee reviews further suggest
+    that labor targeting is accompanied by greater employee-generated discussion
+    of labor issues. The findings highlight how stakeholder pressure can elicit
+    different information responses from managers and employees, reshaping the
+    composition and sources of corporate information.
 
 </div>
 
 <div class="paper-card" markdown="1">
 
-### Green Banks and the Demand for Green Skills: Evidence from Job Postings
+### Protecting Information Without Disclosing Less: Governing the Downstream Use of Corporate Information
 
-**Coauthors:** Claudio Rizzi, Simon Xu, and Paul Yoo
+**Coauthor:** Long Cheng
 
 ??? abstract "Abstract"
-    This paper examines the labor-market consequences of green banks in the
-    United States. Using job-posting data, we study whether green finance
-    initiatives affect firms' labor demand, with a focus on employment
-    decisions, workforce composition, and the demand for green skills.
+    This project examines whether firms can protect the proprietary value of
+    information without reducing public disclosure. Using the emergence of
+    generative-AI information-use controls, we study a distinct margin of
+    corporate information policy: firms' ability to govern downstream uses of
+    information that remains publicly available. Preliminary evidence shows
+    substantial heterogeneity in firms' adoption of AI-related restrictions, with
+    adoption concentrated among firms that previously differentiated among
+    automated agents.
 
 </div>

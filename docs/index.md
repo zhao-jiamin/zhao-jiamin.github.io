@@ -1,6 +1,6 @@
 ---
 title: About
-description: Jiamin Zhao is a Ph.D. student in Accounting at IESE Business School researching corporate disclosure, stakeholder pressure, public activism, textual analysis, and capital markets.
+description: Jiamin Zhao is a Ph.D. Candidate in Accounting at IESE Business School researching corporate disclosure, stakeholder environments, labor markets, and emerging information technologies.
 hide:
   - toc
 ---
@@ -38,12 +38,12 @@ Barcelona, Spain
 
 ## Hello!
 
-Welcome to my website. I am a Ph.D. student in Accounting at IESE Business
-School. My research examines how firms respond to stakeholder pressure, public
-activism, and sustainability-related challenges through disclosure and
-labor-market decisions. I use archival data, textual analysis, and
-machine-learning methods to study corporate disclosure, capital markets, and the
-real effects of external scrutiny.
+I am a Ph.D. Candidate in Accounting at IESE Business School, expected to
+complete my Ph.D. in 2027. My research examines how stakeholder, labor-market,
+and technological environments shape corporate disclosure and information
+strategies. I combine archival empirical methods with large-scale textual
+analysis, computational data collection, and machine-learning and
+natural-language-processing techniques.
 
 </section>
 
