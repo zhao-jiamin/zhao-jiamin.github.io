@@ -10,6 +10,8 @@
 
 **Authorship:** Single-authored
 
+**Status:** Working paper; draft available on request.
+
 ??? abstract "Abstract"
     This paper examines how the surrounding public environment shapes
     labor-related corporate disclosure. Greater non-firm-specific labor public
@@ -31,58 +33,45 @@ DAR Workshop 2025.
 
 <div class="paper-card" markdown="1">
 
-### Mapping Corporate Digital Information-Access Policies: Evidence from Web Access Directives
-
-**Coauthors:** Long Cheng and Igor Kadach
-
-**Status:** Manuscript in preparation
-
-??? abstract "Abstract"
-    This paper constructs a novel historical measure of corporate
-    information-access policies from 2001 to 2024. We document how public firms
-    govern automated access to information on their websites, characterize the
-    long-run evolution and composition of these policies, and validate the
-    measure using externally documented changes in web-access rules. The evidence
-    reveals a previously underexplored dimension of corporate information policy:
-    firms not only decide what information to make public, but also govern the
-    scope and terms of automated access to that information.
-
-</div>
-
-## Work in Progress
-
-<div class="paper-card" markdown="1">
-
-### Stakeholder Pressure and the Supply of Corporate Information
+### NGO Activism and the Supply of Corporate Information
 
 **Authorship:** Single-authored
 
+**Status:** Working paper; draft available on request.
+
 ??? abstract "Abstract"
-    This paper examines how firms adjust disclosure when directly targeted by
-    stakeholder pressure. Labor targeting is associated with less discussion of
-    labor operating conditions, whereas environmental targeting is associated
-    with more climate-transition discussion. Employee reviews further suggest
-    that labor targeting is accompanied by greater employee-generated discussion
-    of labor issues. The findings highlight how stakeholder pressure can elicit
-    different information responses from managers and employees, reshaping the
-    composition and sources of corporate information.
+    This paper examines how NGO activism shapes managerial disclosure to capital
+    markets. Using U.S. NGO targeting events and earnings-call transcripts, I
+    find that environmental targeting is associated with greater
+    climate-transition disclosure, while labor targeting is associated with less
+    discussion of labor operating conditions. The findings suggest that NGO
+    activism can selectively reshape investor-facing information supply,
+    highlighting the role of shareholder-stakeholder interest alignment in
+    external corporate governance.
 
 </div>
 
 <div class="paper-card" markdown="1">
 
-### Protecting Information Without Disclosing Less: Governing the Downstream Use of Corporate Information
+### How Firms Govern Automated Data Access: Evidence from Robots.txt Policies
 
-**Coauthor:** Long Cheng
+**Coauthors:** Long Cheng and Igor Kadach
+
+**Status:** Working paper; draft available on request.
 
 ??? abstract "Abstract"
-    This project examines whether firms can protect the proprietary value of
-    information without reducing public disclosure. Using the emergence of
-    generative-AI information-use controls, we study a distinct margin of
-    corporate information policy: firms' ability to govern downstream uses of
-    information that remains publicly available. Preliminary evidence shows
-    substantial heterogeneity in firms' adoption of AI-related restrictions, with
-    adoption concentrated among firms that previously differentiated among
-    automated agents.
+    This paper constructs a novel historical measure of corporate digital
+    information-access policies using archived web-access directives for
+    U.S.-listed firms over the 2001-2024 period. We document substantial and
+    persistent heterogeneity in how firms govern automated access to publicly
+    available information, including whether restrictions apply broadly or
+    selectively to named agents. We validate the measure using externally
+    documented changes in web-access rules and characterize the long-run
+    evolution of firms' machine-access policies. The evidence identifies
+    automated access as a distinct dimension of corporate information policy:
+    public availability does not imply unrestricted machine access, and firms
+    actively govern both margins.
+
+**Presentation:** REAP Workshop (scheduled).
 
 </div>

@@ -30,6 +30,15 @@ Master's, ESADE Business School, Teaching Assistant, 2024-2026
 
 ### Case Teaching for Junior Professors
 
-Representative of the Ph.D. Program, IESE Business School, 2025
+Representative of the Ph.D. Program, The Case Center and IESE Business School,
+2025
+
+</div>
+
+<div class="teaching-group" markdown="1">
+
+### Case Teaching Method Course
+
+Participant, IESE Business School, 2025
 
 </div>
