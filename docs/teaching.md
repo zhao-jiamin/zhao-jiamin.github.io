@@ -1,44 +1,52 @@
-# Teaching
+---
+title: Teaching
+description: Teaching experience and training of Jiamin Zhao, Accounting Ph.D. Candidate at IESE Business School.
+---
 
-## Instructor
+<header class="page-heading">
+  <p class="eyebrow">Teaching</p>
+  <h1>Teaching</h1>
+  <p>My teaching experience spans undergraduate accounting and graduate operations courses, alongside case-method training.</p>
+</header>
 
-<div class="teaching-group" markdown="1">
+<section class="academic-section" aria-labelledby="instructor">
+  <h2 id="instructor">Instructor</h2>
+  <div class="teaching-entry">
+    <div>
+      <h3>Cost Accounting</h3>
+      <p>Undergraduate <span aria-hidden="true">&middot;</span> Universitat Internacional de Catalunya</p>
+      <p class="teaching-detail">Student evaluation: 4.03/5</p>
+    </div>
+    <span class="teaching-year">2026</span>
+  </div>
+</section>
 
-### Cost Accounting
+<section class="academic-section" aria-labelledby="teaching-assistant">
+  <h2 id="teaching-assistant">Teaching Assistant</h2>
+  <div class="teaching-entry">
+    <div>
+      <h3>Global Operations</h3>
+      <p>Master's <span aria-hidden="true">&middot;</span> ESADE Business School</p>
+      <p class="teaching-detail">Instructor: Prof. Annachiara Longoni</p>
+    </div>
+    <span class="teaching-year">2024-2026</span>
+  </div>
+</section>
 
-Undergraduate, Universitat Internacional de Catalunya, 2026
-
-**Student Evaluation:** 4.03/5
-
-</div>
-
-## Teaching Assistant
-
-<div class="teaching-group" markdown="1">
-
-### Global Operations
-
-Master's, ESADE Business School, Teaching Assistant, 2024-2026
-
-**Instructor:** Prof. Annachiara Longoni
-
-</div>
-
-## Teaching Training
-
-<div class="teaching-group" markdown="1">
-
-### Case Teaching for Junior Professors
-
-Representative of the Ph.D. Program, The Case Center and IESE Business School,
-2025
-
-</div>
-
-<div class="teaching-group" markdown="1">
-
-### Case Teaching Method Course
-
-Participant, IESE Business School, 2025
-
-</div>
+<section class="academic-section" aria-labelledby="teaching-training">
+  <h2 id="teaching-training">Teaching Training</h2>
+  <div class="teaching-entry">
+    <div>
+      <h3>Case Teaching for Junior Professors</h3>
+      <p>Representative of the Ph.D. Program <span aria-hidden="true">&middot;</span> The Case Center and IESE Business School</p>
+    </div>
+    <span class="teaching-year">2025</span>
+  </div>
+  <div class="teaching-entry">
+    <div>
+      <h3>Case Teaching Method Course</h3>
+      <p>Participant <span aria-hidden="true">&middot;</span> IESE Business School</p>
+    </div>
+    <span class="teaching-year">2025</span>
+  </div>
+</section>

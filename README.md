@@ -6,29 +6,33 @@ with GitHub Pages.
 
 ## Editing The Site
 
-- Update the homepage bio and profile details in `docs/index.md`.
+- Update the homepage introduction and selected research in `docs/index.md`.
 - Replace the profile photo by saving a new image at
   `docs/assets/images/profile.jpg`. If you use a different filename, update the
   image path in `docs/index.md`.
 - Replace the navbar logo by saving the official IESE Business School logo at
-  `docs/assets/iese-logo.png`. Keep that filename, or update `theme.logo` in
-  `mkdocs.yml` if you choose a different asset.
+  `docs/assets/iese-logo.png`. Keep that filename, or update the path in
+  `overrides/main.html` if you choose a different asset.
 - Update the Google Search Console verification tag by replacing the
   `PASTE_GOOGLE_SEARCH_CONSOLE_VERIFICATION_CODE_HERE` value in
   `overrides/main.html` with the verification code from Google.
-- Update the LinkedIn link by editing the `[LinkedIn](...)` link in
-  `docs/index.md`.
+- Update the LinkedIn link in `overrides/main.html`.
 - Replace the CV by saving the latest PDF at `docs/assets/cv.pdf`.
-- Add or edit research papers in `docs/research.md`. Put paper PDFs or slides in
-  `docs/assets/` and link to them from the relevant paper card.
+- Add or edit research papers in `docs/research.md`, then update the selected
+  research links in `docs/index.md`. Put paper PDFs in `docs/assets/` only when
+  a public draft is available.
 - Add or edit publications in `docs/publications.md`.
 - Update teaching information in `docs/teaching.md`.
 - Add or edit media mentions and short posts in `docs/insights.md`.
-- Update the top navigation in `mkdocs.yml`.
+- Update the visible navigation, CV link, and contact email in
+  `overrides/main.html`. The `nav` list in `mkdocs.yml` includes secondary pages
+  so MkDocs tracks every page, while the visible header stays concise.
+- Update typography, spacing, and responsive layout in
+  `docs/assets/stylesheets/extra.css`.
 
 The generated files in the repository root, such as `index.html`, `research/`,
 `publications/`, `insights/`, and `assets/`, are deployment output. Edit the
-source files in `docs/` and `mkdocs.yml` instead.
+source files in `docs/`, `overrides/`, and `mkdocs.yml` instead.
 
 ## Local Development
 

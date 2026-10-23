@@ -1,8 +1,6 @@
 site_name: Jiamin Zhao
-site_description: Jiamin Zhao is a Ph.D. Candidate in Accounting at IESE Business School researching corporate disclosure, stakeholder environments, labor markets, and emerging information technologies.
+site_description: Jiamin Zhao is a Ph.D. Candidate in Accounting at IESE Business School studying how stakeholders and emerging technologies shape corporate disclosure and information access.
 site_url: https://zhao-jiamin.github.io/
-repo_url: https://github.com/zhao-jiamin/zhao-jiamin.github.io
-repo_name: zhao-jiamin/zhao-jiamin.github.io
 copyright: Copyright &copy; 2026 Jiamin Zhao
 
 theme:
@@ -11,19 +9,10 @@ theme:
   language: en
   logo: assets/iese-logo.png
   favicon: assets/images/monogram.svg
-  features:
-    - navigation.tabs
-    - navigation.sections
-    - navigation.indexes
-    - navigation.top
-    - toc.follow
-    - search.suggest
-    - search.highlight
-    - content.code.copy
   palette:
     scheme: default
     primary: white
-    accent: teal
+    accent: red
   font:
     text: Inter
     code: JetBrains Mono
@@ -31,14 +20,7 @@ theme:
 extra_css:
   - assets/stylesheets/extra.css
 
-extra:
-  social:
-    - icon: fontawesome/brands/github
-      link: https://github.com/zhao-jiamin
-      name: GitHub
-
-plugins:
-  - search
+plugins: []
 
 markdown_extensions:
   - admonition
@@ -56,7 +38,7 @@ markdown_extensions:
       custom_checkbox: true
 
 nav:
-  - About: index.md
+  - Home: index.md
   - Research: research.md
   - Publications: publications.md
   - Teaching: teaching.md

@@ -4,3 +4,57 @@
   {{ super() }}
   <meta name="google-site-verification" content="PASTE_GOOGLE_SEARCH_CONSOLE_VERIFICATION_CODE_HERE">
 {% endblock %}
+
+{% block header %}
+  <header class="site-header">
+    <a class="site-skip" href="#main-content">Skip to content</a>
+    <div class="site-header__inner">
+      <a class="site-brand" href="{{ '' | url }}" aria-label="Jiamin Zhao, home">
+        <img src="{{ 'assets/iese-logo.png' | url }}" alt="IESE Business School" width="58" height="31">
+        <span>Jiamin Zhao</span>
+      </a>
+      <nav class="site-nav" aria-label="Primary navigation">
+        <a href="{{ '' | url }}" {% if page.is_homepage %}aria-current="page"{% endif %}>Home</a>
+        <a href="{{ 'research/' | url }}" {% if page.url == 'research/' %}aria-current="page"{% endif %}>Research</a>
+        <a href="{{ 'teaching/' | url }}" {% if page.url == 'teaching/' %}aria-current="page"{% endif %}>Teaching</a>
+        <a href="{{ 'assets/cv.pdf' | url }}">CV</a>
+        <a href="mailto:JZhao@iese.edu">Contact</a>
+      </nav>
+      <details class="site-menu">
+        <summary>Menu</summary>
+        <nav aria-label="Mobile navigation">
+          <a href="{{ '' | url }}" {% if page.is_homepage %}aria-current="page"{% endif %}>Home</a>
+          <a href="{{ 'research/' | url }}" {% if page.url == 'research/' %}aria-current="page"{% endif %}>Research</a>
+          <a href="{{ 'teaching/' | url }}" {% if page.url == 'teaching/' %}aria-current="page"{% endif %}>Teaching</a>
+          <a href="{{ 'assets/cv.pdf' | url }}">CV</a>
+          <a href="mailto:JZhao@iese.edu">Contact</a>
+        </nav>
+      </details>
+    </div>
+  </header>
+{% endblock %}
+
+{% block tabs %}{% endblock %}
+{% block site_nav %}{% endblock %}
+
+{% block container %}
+  <div class="md-content" data-md-component="content">
+    <article class="md-content__inner md-typeset" id="main-content" tabindex="-1">
+      {{ page.content }}
+    </article>
+  </div>
+{% endblock %}
+
+{% block footer %}
+  <footer class="site-footer">
+    <div class="site-footer__inner">
+      <p>&copy; 2026 Jiamin Zhao <span aria-hidden="true">&middot;</span> IESE Business School</p>
+      <nav aria-label="Secondary navigation">
+        <a href="{{ 'publications/' | url }}">Publications</a>
+        <a href="{{ 'insights/' | url }}">Insights</a>
+        <a href="https://www.linkedin.com/in/jiamin-zhao-689607228/">LinkedIn</a>
+        <a href="mailto:JZhao@iese.edu">Email</a>
+      </nav>
+    </div>
+  </footer>
+{% endblock %}

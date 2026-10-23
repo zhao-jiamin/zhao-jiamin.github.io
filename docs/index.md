@@ -1,50 +1,66 @@
 ---
-title: About
-description: Jiamin Zhao is a Ph.D. Candidate in Accounting at IESE Business School researching corporate disclosure, stakeholder environments, labor markets, and emerging information technologies.
-hide:
-  - toc
+title: Home
+description: Jiamin Zhao is an Accounting Ph.D. Candidate at IESE Business School studying corporate disclosure, public activism, and digital information access.
 ---
 
-# About
-
-<!--
-Profile photo source: docs/assets/images/profile.jpg
-Replace that file with a new image using the same filename, or update the image
-path below if you prefer a different filename.
-
-LinkedIn profile: https://www.linkedin.com/in/jiamin-zhao-689607228/
--->
-
-<div class="about-layout" markdown="1">
-
-<aside class="profile-card" markdown="1">
-![Jiamin Zhao](assets/images/profile.jpg){ .profile-photo }
-
-## Jiamin Zhao
-
-Ph.D. Candidate in Accounting
-
-IESE Business School
-
-Barcelona, Spain
-
-<div class="profile-contact" markdown="1">
-[Email](mailto:JZhao@iese.edu) <span aria-hidden="true">|</span> [LinkedIn](https://www.linkedin.com/in/jiamin-zhao-689607228/)
+<div class="home-hero">
+  <div class="hero-identity">
+    <p class="eyebrow">Accounting research <span aria-hidden="true">/</span> IESE Business School</p>
+    <h1>Jiamin Zhao</h1>
+    <p class="hero-role">Ph.D. Candidate in Accounting<br>IESE Business School</p>
+  </div>
+  <figure class="hero-portrait">
+    <img src="assets/images/profile.jpg" alt="Portrait of Jiamin Zhao" width="800" height="1000" fetchpriority="high">
+  </figure>
+  <div class="hero-message">
+    <p class="hero-statement">I study how external stakeholders and emerging technologies shape firms' incentives to disclose and control information.</p>
+    <p class="hero-support">I examine how changes in the external information environment affect corporate disclosure, focusing on public activism, stakeholder interactions, and digital information access.</p>
+    <div class="hero-links">
+      <a href="research/">Research <span aria-hidden="true">&rarr;</span></a>
+      <a href="assets/cv.pdf">CV <span aria-hidden="true">&rarr;</span></a>
+      <a href="mailto:JZhao@iese.edu">Contact <span aria-hidden="true">&rarr;</span></a>
+    </div>
+  </div>
 </div>
 
-</aside>
+<section class="home-research" aria-labelledby="selected-research">
+  <div class="section-heading">
+    <div>
+      <p class="eyebrow">Research agenda</p>
+      <h2 id="selected-research">Selected Research</h2>
+    </div>
+    <a href="research/" class="section-link">View all research <span aria-hidden="true">&rarr;</span></a>
+  </div>
 
-<section class="about-copy" markdown="1">
+  <article class="research-preview">
+    <p class="research-preview__label">Job Market Paper <span aria-hidden="true">/</span> Working paper</p>
+    <h3><a href="research/#job-market-paper">Public Activism and Human Capital Disclosure: Evidence from Labor Protests and Earnings Calls</a></h3>
+    <p class="research-preview__authors">Jiamin Zhao <span aria-hidden="true">&middot;</span> Draft available on request</p>
+    <p class="research-preview__summary">How does surrounding public activism shape the information firms communicate to capital markets?</p>
+    <a class="text-link" href="research/#job-market-abstract">Abstract <span aria-hidden="true">&rarr;</span></a>
+  </article>
 
-## Hello!
+  <article class="research-preview">
+    <p class="research-preview__label">Working paper</p>
+    <h3><a href="research/#ngo-activism">NGO Activism and the Supply of Corporate Information</a></h3>
+    <p class="research-preview__authors">Jiamin Zhao <span aria-hidden="true">&middot;</span> Draft available on request</p>
+    <p class="research-preview__summary">How does NGO targeting change what managers discuss with capital markets?</p>
+    <a class="text-link" href="research/#ngo-abstract">Abstract <span aria-hidden="true">&rarr;</span></a>
+  </article>
 
-I am a Ph.D. Candidate in Accounting at IESE Business School, expected to
-complete my Ph.D. in 2027. My research examines how stakeholder, labor-market,
-and technological environments shape corporate disclosure and information
-strategies. I combine archival empirical methods with large-scale textual
-analysis, computational data collection, and machine-learning and
-natural-language-processing techniques.
-
+  <article class="research-preview">
+    <p class="research-preview__label">Working paper</p>
+    <h3><a href="research/#automated-access">How Firms Govern Automated Data Access: Evidence from Robots.txt Policies</a></h3>
+    <p class="research-preview__authors">Jiamin Zhao, Long Cheng, and Igor Kadach <span aria-hidden="true">&middot;</span> Draft available on request</p>
+    <p class="research-preview__summary">How do firms govern automated access to information that remains publicly available?</p>
+    <a class="text-link" href="research/#automated-access-abstract">Abstract <span aria-hidden="true">&rarr;</span></a>
+  </article>
 </section>
 
-</div>
+<section class="home-note" aria-labelledby="about-research">
+  <div>
+    <p class="eyebrow">Approach</p>
+    <h2 id="about-research">Research across information environments</h2>
+  </div>
+  <p>I combine archival empirical methods with large-scale textual analysis, computational data collection, and machine-learning techniques. I expect to complete my Ph.D. in 2027.</p>
+</section>
