@@ -58,7 +58,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add 404.html index.html assets cv insights publications research robots.txt search sitemap.xml sitemap.xml.gz teaching .nojekyll
+          git add -A
           if git diff --cached --quiet; then
             echo "Built site files are already up to date."
           else
