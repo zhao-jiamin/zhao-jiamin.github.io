@@ -57,6 +57,22 @@ description: Jiamin Zhao is an Accounting Ph.D. Candidate at IESE Business Schoo
   </article>
 </section>
 
+<section class="home-research home-media" aria-labelledby="media-coverage">
+  <div class="section-heading">
+    <div>
+      <p class="eyebrow">In the news</p>
+      <h2 id="media-coverage">Media Coverage</h2>
+    </div>
+  </div>
+
+  <article class="research-preview">
+    <p class="research-preview__label">HEC Paris <span aria-hidden="true">/</span> June 2025</p>
+    <h3><a href="insights/">Young researchers converge at HEC Paris to rethink climate leadership</a></h3>
+    <p class="research-preview__summary">HEC Paris highlights my presentation on public activism and corporate disclosure at the Business Schools for Climate Leadership PhD Academy.</p>
+    <a class="text-link" href="https://www.hec.edu/en/society-organizations-center/news/young-researchers-converge-hec-paris-rethink-climate-leadership">Read the feature <span aria-hidden="true">&rarr;</span></a>
+  </article>
+</section>
+
 <section class="home-note" aria-labelledby="about-research">
   <div>
     <p class="eyebrow">Approach</p>
