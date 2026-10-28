@@ -363,6 +363,10 @@ summary:focus-visible {
   padding-top: 2.25rem;
 }
 
+.home-media {
+  margin-top: 3.3rem;
+}
+
 .section-heading {
   align-items: end;
   display: flex;
