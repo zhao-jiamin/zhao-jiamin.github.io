@@ -34,10 +34,13 @@ description: Jiamin Zhao is an Accounting Ph.D. Candidate at IESE Business Schoo
 
   <article class="research-preview">
     <p class="research-preview__label">Job Market Paper <span aria-hidden="true">/</span> Working paper</p>
-    <h3><a href="research/#job-market-paper">Public Activism and Labor-related Corporate Disclosure</a></h3>
-    <p class="research-preview__authors">Jiamin Zhao <span aria-hidden="true">&middot;</span> Draft available on request</p>
+    <h3><a href="research/#job-market-paper">Public Activism and Labor-Related Corporate Disclosure</a></h3>
+    <p class="research-preview__authors">Jiamin Zhao <span aria-hidden="true">&middot;</span> October 2026 draft</p>
     <p class="research-preview__summary">How does public labor activism near corporate headquarters shape labor-related disclosure in earnings calls?</p>
-    <a class="text-link" href="research/#job-market-abstract">Abstract <span aria-hidden="true">&rarr;</span></a>
+    <div class="paper-links">
+      <a href="assets/job-market-paper.pdf">Paper (PDF) <span aria-hidden="true">&rarr;</span></a>
+      <a href="research/#job-market-abstract">Abstract <span aria-hidden="true">&rarr;</span></a>
+    </div>
   </article>
 
   <article class="research-preview">

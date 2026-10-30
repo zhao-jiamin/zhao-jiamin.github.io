@@ -21,6 +21,8 @@ with GitHub Pages.
 - Add or edit research papers in `docs/research.md`, then update the selected
   research links in `docs/index.md`. Put paper PDFs in `docs/assets/` only when
   a public draft is available.
+- Replace the public job market paper draft at `docs/assets/job-market-paper.pdf`
+  to update the existing PDF links without changing the page content.
 - Add or edit publications in `docs/publications.md`.
 - Update teaching information in `docs/teaching.md`.
 - Add or edit media mentions and short posts in `docs/insights.md`.
