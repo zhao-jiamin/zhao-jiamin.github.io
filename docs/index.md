@@ -46,7 +46,7 @@ description: Jiamin Zhao is an Accounting Ph.D. Candidate at IESE Business Schoo
   <article class="research-preview">
     <p class="research-preview__label">Working paper</p>
     <h3><a href="research/#ngo-activism">NGO Activism and the Supply of Corporate Information</a></h3>
-    <p class="research-preview__authors">Jiamin Zhao and Simon Xu <span aria-hidden="true">&middot;</span> Draft available on request</p>
+    <p class="research-preview__authors">Jiamin Zhao and Simon Xu (Stanford) <span aria-hidden="true">&middot;</span> Draft available on request</p>
     <p class="research-preview__summary">How does NGO targeting shape climate-transition disclosure and demand for green-technology workers?</p>
     <a class="text-link" href="research/#ngo-abstract">Abstract <span aria-hidden="true">&rarr;</span></a>
   </article>
@@ -54,7 +54,7 @@ description: Jiamin Zhao is an Accounting Ph.D. Candidate at IESE Business Schoo
   <article class="research-preview">
     <p class="research-preview__label">Working paper</p>
     <h3><a href="research/#automated-access">How Firms Govern Automated Data Access: Evidence from Robots.txt Policies</a></h3>
-    <p class="research-preview__authors">Jiamin Zhao, Long Cheng, and Igor Kadach <span aria-hidden="true">&middot;</span> Draft available on request</p>
+    <p class="research-preview__authors">Jiamin Zhao, Long Cheng (IESE), and Igor Kadach (IESE) <span aria-hidden="true">&middot;</span> Draft available on request</p>
     <p class="research-preview__summary">How do firms govern automated access to information that remains publicly available?</p>
     <a class="text-link" href="research/#automated-access-abstract">Abstract <span aria-hidden="true">&rarr;</span></a>
   </article>

@@ -37,7 +37,7 @@ description: Working papers by Jiamin Zhao on corporate disclosure, stakeholder 
   <article class="research-paper" id="ngo-activism">
     <p class="paper-kicker">Working paper</p>
     <h3>NGO Activism and the Supply of Corporate Information</h3>
-    <p class="paper-authors">Jiamin Zhao and Simon Xu</p>
+    <p class="paper-authors">Jiamin Zhao and Simon Xu (Stanford)</p>
     <p class="paper-status">Working paper <span aria-hidden="true">&middot;</span> Draft available on request</p>
     <p class="paper-question">How does NGO targeting shape climate-transition disclosure and demand for green-technology workers?</p>
     <div class="paper-links">
@@ -53,7 +53,7 @@ description: Working papers by Jiamin Zhao on corporate disclosure, stakeholder 
   <article class="research-paper" id="automated-access">
     <p class="paper-kicker">Working paper</p>
     <h3>How Firms Govern Automated Data Access: Evidence from Robots.txt Policies</h3>
-    <p class="paper-authors">Jiamin Zhao, Long Cheng, and Igor Kadach</p>
+    <p class="paper-authors">Jiamin Zhao, Long Cheng (IESE), and Igor Kadach (IESE)</p>
     <p class="paper-status">Working paper <span aria-hidden="true">&middot;</span> Draft available on request</p>
     <p class="paper-question">How do firms govern automated access to information that remains publicly available?</p>
     <div class="paper-links">
@@ -72,7 +72,7 @@ description: Working papers by Jiamin Zhao on corporate disclosure, stakeholder 
   <h2 id="work-in-progress">Work in Progress</h2>
   <article class="research-paper" id="data-licensing">
     <h3>From Open Access to Data Licensing: Legal Protection and the Monetization of Corporate Information</h3>
-    <p class="paper-authors">Jiamin Zhao and Long Cheng</p>
+    <p class="paper-authors">Jiamin Zhao and Long Cheng (IESE)</p>
     <p class="paper-question">How do legal protection and data value shape firms' choices between open access and data licensing?</p>
     <div class="paper-abstract">
       <h4>Abstract</h4>
