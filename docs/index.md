@@ -46,8 +46,8 @@ description: Jiamin Zhao is an Accounting Ph.D. Candidate at IESE Business Schoo
   <article class="research-preview">
     <p class="research-preview__label">Working paper</p>
     <h3><a href="research/#ngo-activism">NGO Activism and the Supply of Corporate Information</a></h3>
-    <p class="research-preview__authors">Jiamin Zhao <span aria-hidden="true">&middot;</span> Draft available on request</p>
-    <p class="research-preview__summary">How does NGO targeting change what managers discuss with capital markets?</p>
+    <p class="research-preview__authors">Jiamin Zhao and Simon Xu <span aria-hidden="true">&middot;</span> Draft available on request</p>
+    <p class="research-preview__summary">How does NGO targeting shape climate-transition disclosure and demand for green-technology workers?</p>
     <a class="text-link" href="research/#ngo-abstract">Abstract <span aria-hidden="true">&rarr;</span></a>
   </article>
 
