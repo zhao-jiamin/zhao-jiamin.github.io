@@ -638,6 +638,65 @@ summary:focus-visible {
   max-width: 40rem;
 }
 
+.paper-figures {
+  border-top: 1px solid var(--site-line);
+  margin-top: 1.4rem;
+  padding-top: 1rem;
+}
+
+.md-typeset .paper-figures h4 {
+  color: var(--site-muted);
+  font-family: inherit;
+  font-size: 0.68rem;
+  font-weight: 700;
+  margin: 0 0 0.85rem;
+  text-transform: uppercase;
+}
+
+.paper-figures__grid {
+  display: grid;
+  gap: 1.2rem;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.md-typeset .paper-figure {
+  margin: 0;
+}
+
+.paper-figure__image {
+  border: 1px solid var(--site-line);
+  display: block;
+  overflow: hidden;
+}
+
+.paper-figure__image img {
+  display: block;
+  height: auto;
+  width: 100%;
+}
+
+.paper-figure__image--map {
+  aspect-ratio: 2905 / 2200;
+}
+
+.paper-figure__image--map img {
+  max-width: none;
+  width: 200%;
+}
+
+.md-typeset .paper-figure figcaption {
+  color: var(--site-muted);
+  font-size: 0.7rem;
+  font-style: normal;
+  line-height: 1.55;
+  margin: 0.55rem 0 0;
+  text-align: left;
+}
+
+.paper-figure figcaption strong {
+  color: var(--site-body);
+}
+
 .paper-context {
   border-top: 1px solid var(--site-line);
   margin-top: 1.25rem;
@@ -858,6 +917,10 @@ summary:focus-visible {
   .md-typeset .publication-entry h2,
   .md-typeset .insight-entry h2 {
     font-size: 1.25rem;
+  }
+
+  .paper-figures__grid {
+    grid-template-columns: 1fr;
   }
 
   .teaching-entry {

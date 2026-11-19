@@ -23,6 +23,12 @@ with GitHub Pages.
   a public draft is available.
 - Replace the public job market paper draft at `docs/assets/job-market-paper.pdf`
   to update the existing PDF links without changing the page content.
+- The JMP map and topic chart come from slides 3 and 16 of the November 2026
+  presentation. Replace `docs/assets/images/labor-activism-geography.png` and
+  `docs/assets/images/labor-activism-topic-coefficients.png` to update them;
+  review their captions and alt text in `docs/research.md` when doing so. The
+  map preview shows the left half of a two-map image; if its layout changes,
+  adjust `.paper-figure__image--map` in the stylesheet.
 - Add or edit publications in `docs/publications.md`.
 - Update teaching information in `docs/teaching.md`.
 - Add or edit media mentions and short posts in `docs/insights.md`.
