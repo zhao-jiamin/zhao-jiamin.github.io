@@ -7,9 +7,10 @@ with GitHub Pages.
 ## Editing The Site
 
 - Update the homepage introduction and selected research in `docs/index.md`.
-- Replace the profile photo by saving a new image at
-  `docs/assets/images/profile.jpg`. If you use a different filename, update the
-  image path in `docs/index.md`.
+- The homepage currently uses `docs/assets/images/research-presentation.jpg`.
+  Replace that file to change the photo. The previous portrait remains at
+  `docs/assets/images/profile.jpg`; update the image path in `docs/index.md`
+  to switch back.
 - Replace the navbar logo by saving the official IESE Business School logo at
   `docs/assets/iese-logo.png`. Keep that filename, or update the path in
   `overrides/main.html` if you choose a different asset.
