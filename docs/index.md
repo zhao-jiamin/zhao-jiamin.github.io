@@ -54,10 +54,13 @@ description: Jiamin Zhao is an Accounting Ph.D. Candidate at IESE Business Schoo
 
   <article class="research-preview">
     <p class="research-preview__label">Working paper</p>
-    <h3><a href="research/#automated-access">How Firms Govern Automated Data Access: Evidence from Robots.txt Policies</a></h3>
-    <p class="research-preview__authors">Jiamin Zhao, Long Cheng (IESE), and Igor Kadach (IESE) <span aria-hidden="true">&middot;</span> Draft available on request</p>
-    <p class="research-preview__summary">Archived robots.txt policies show that public availability does not imply unrestricted automated access.</p>
-    <a class="text-link" href="research/#automated-access-abstract">Abstract <span aria-hidden="true">&rarr;</span></a>
+    <h3><a href="research/#automated-access">How Firms Govern Automated Access to Corporate Information: Evidence from Robots.txt</a></h3>
+    <p class="research-preview__authors">Long Cheng (IESE), Igor Kadach (IESE), and Jiamin Zhao <span aria-hidden="true">&middot;</span> November 2026 draft</p>
+    <p class="research-preview__summary">Archived robots.txt records show widespread general access restrictions, while prior crawler-specific policies are associated with later restrictions on newly introduced AI-related identifiers.</p>
+    <div class="paper-links">
+      <a href="assets/automated-access-paper.pdf">Paper (PDF) <span aria-hidden="true">&rarr;</span></a>
+      <a href="research/#automated-access-abstract">Abstract <span aria-hidden="true">&rarr;</span></a>
+    </div>
   </article>
 </section>
 

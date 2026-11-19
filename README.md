@@ -23,6 +23,11 @@ with GitHub Pages.
   a public draft is available.
 - Replace the public job market paper draft at `docs/assets/job-market-paper.pdf`
   to update the existing PDF links without changing the page content.
+- Replace the coauthored automated-access paper at
+  `docs/assets/automated-access-paper.pdf`. Its Figure 1 and Figure 4 images
+  are in `docs/assets/images/automated-access-figure-1.png` and
+  `docs/assets/images/automated-access-figure-4.png`; update their captions
+  and alt text in `docs/research.md` if the figures change.
 - The JMP map and topic chart come from slides 3 and 16 of the November 2026
   presentation. Replace `docs/assets/images/labor-activism-geography.png` and
   `docs/assets/images/labor-activism-topic-coefficients.png` to update them;
