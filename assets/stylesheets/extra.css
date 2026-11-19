@@ -308,6 +308,17 @@ summary:focus-visible {
   width: 100%;
 }
 
+.hero-portrait--presentation {
+  aspect-ratio: 4 / 5;
+  overflow: hidden;
+}
+
+.hero-portrait--presentation img {
+  height: 100%;
+  transform: scale(2.15);
+  transform-origin: 25% 60%;
+}
+
 .hero-message {
   align-self: start;
   grid-column: 1;
@@ -926,6 +937,10 @@ summary:focus-visible {
     grid-column: 2;
     grid-row: 1;
     width: 7rem;
+  }
+
+  .hero-portrait--presentation img {
+    transform: scale(2.35);
   }
 
   .hero-message {
