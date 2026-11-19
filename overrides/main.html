@@ -2,7 +2,9 @@
 
 {% block extrahead %}
   {{ super() }}
-  <meta name="google-site-verification" content="PASTE_GOOGLE_SEARCH_CONSOLE_VERIFICATION_CODE_HERE">
+  {% if config.extra.google_site_verification %}
+  <meta name="google-site-verification" content="{{ config.extra.google_site_verification | e }}">
+  {% endif %}
 {% endblock %}
 
 {% block header %}
@@ -17,7 +19,6 @@
         <a href="{{ '' | url }}" {% if page.is_homepage %}aria-current="page"{% endif %}>Home</a>
         <a href="{{ 'research/' | url }}" {% if page.url == 'research/' %}aria-current="page"{% endif %}>Research</a>
         <a href="{{ 'teaching/' | url }}" {% if page.url == 'teaching/' %}aria-current="page"{% endif %}>Teaching</a>
-        <a href="{{ 'insights/' | url }}" {% if page.url == 'insights/' %}aria-current="page"{% endif %}>Media</a>
         <a href="{{ 'assets/cv.pdf' | url }}">CV</a>
         <a href="mailto:JZhao@iese.edu">Contact</a>
       </nav>
@@ -27,7 +28,6 @@
           <a href="{{ '' | url }}" {% if page.is_homepage %}aria-current="page"{% endif %}>Home</a>
           <a href="{{ 'research/' | url }}" {% if page.url == 'research/' %}aria-current="page"{% endif %}>Research</a>
           <a href="{{ 'teaching/' | url }}" {% if page.url == 'teaching/' %}aria-current="page"{% endif %}>Teaching</a>
-          <a href="{{ 'insights/' | url }}" {% if page.url == 'insights/' %}aria-current="page"{% endif %}>Media</a>
           <a href="{{ 'assets/cv.pdf' | url }}">CV</a>
           <a href="mailto:JZhao@iese.edu">Contact</a>
         </nav>

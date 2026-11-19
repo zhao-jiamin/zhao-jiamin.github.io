@@ -1,12 +1,12 @@
 ---
 title: Research
-description: Working papers by Jiamin Zhao on corporate disclosure, stakeholder pressure, public activism, and digital information access.
+description: Research by Jiamin Zhao on stakeholder pressure, corporate disclosure, and governance of digital information access.
 ---
 
 <header class="page-heading">
   <p class="eyebrow">Research agenda</p>
   <h1>Research</h1>
-  <p>My work examines how stakeholder, labor-market, and technological environments shape corporate disclosure and information strategies.</p>
+  <p>Across these projects, I examine how stakeholders and technology shape what firms disclose, how corporate information is used, and how firms govern access to it.</p>
 </header>
 
 <section class="academic-section" aria-labelledby="working-papers">
@@ -19,7 +19,9 @@ description: Working papers by Jiamin Zhao on corporate disclosure, stakeholder 
     <h3>Public Activism and Labor-Related Corporate Disclosure</h3>
     <p class="paper-authors">Jiamin Zhao <span aria-hidden="true">&middot;</span> Single-authored</p>
     <p class="paper-status">Working paper <span aria-hidden="true">&middot;</span> October 2026 draft</p>
-    <p class="paper-question">How does public labor activism near corporate headquarters shape labor-related disclosure in earnings calls?</p>
+    <p class="paper-award"><strong>Award</strong> The Sue Hrasky Best PhD Paper Prize, BAFA, 2026.</p>
+    <p class="paper-question">How does local public activism influence corporate disclosure when it does not directly target the firm?</p>
+    <p class="paper-finding">Greater non-firm-specific labor activism in a firm's headquarters county is associated with less discussion of current labor operating conditions relative to talent-management information in subsequent earnings calls.</p>
     <div class="paper-links">
       <a href="../assets/job-market-paper.pdf">Paper (PDF) <span aria-hidden="true">&rarr;</span></a>
       <a href="#job-market-abstract">Abstract <span aria-hidden="true">&rarr;</span></a>
@@ -29,7 +31,6 @@ description: Working papers by Jiamin Zhao on corporate disclosure, stakeholder 
       <p>This paper examines whether public activism is relevant to corporate disclosure even when the underlying public activity is not directly targeted at the focal firm. Using non-firm-specific labor-related public activism in the same county as firms' headquarters, I find that greater local public activism is associated with less discussion of current labor-related operating conditions relative to talent-management information in subsequent earnings calls. Consistent with the potential informational relevance of public activism, the association is more pronounced when public activism has greater attention-generating potential and varies with the relevance and reach of surrounding audiences. The findings suggest that information about the current prominence of stakeholder concerns may be relevant to firms' disclosure choices, even without direct firm-specific activist pressure. More broadly, they highlight how the potential consequences of investor-facing disclosure may vary with issue prominence and the relevance of broader audiences.</p>
     </div>
     <div class="paper-context">
-      <p><strong>Award</strong> The Sue Hrasky Best PhD Paper Prize, BAFA, 2026.</p>
       <p><strong>Selected presentations</strong> EAA Doctoral Colloquium 2026; IESE Seminar 2026; BAFA Annual Conference 2026; JIAR Annual Conference 2026; University of Zurich DAR Workshop 2025.</p>
     </div>
   </article>
@@ -39,7 +40,8 @@ description: Working papers by Jiamin Zhao on corporate disclosure, stakeholder 
     <h3>NGO Activism and the Supply of Corporate Information</h3>
     <p class="paper-authors">Jiamin Zhao and Simon Xu (Stanford)</p>
     <p class="paper-status">Working paper <span aria-hidden="true">&middot;</span> Draft available on request</p>
-    <p class="paper-question">How does NGO targeting shape climate-transition disclosure and demand for green-technology workers?</p>
+    <p class="paper-question">How is environmental NGO targeting related to climate-transition disclosure and firms' demand for green-technology workers?</p>
+    <p class="paper-finding">Targeting is associated with more discussion of climate-transition projects and infrastructure relative to renewable technologies in earnings calls, alongside lower demand for specialized green-technology workers.</p>
     <div class="paper-links">
       <a href="#ngo-abstract">Abstract <span aria-hidden="true">&rarr;</span></a>
       <a href="mailto:JZhao@iese.edu?subject=NGO%20activism%20paper%20draft%20request">Request draft <span aria-hidden="true">&rarr;</span></a>
@@ -56,6 +58,7 @@ description: Working papers by Jiamin Zhao on corporate disclosure, stakeholder 
     <p class="paper-authors">Jiamin Zhao, Long Cheng (IESE), and Igor Kadach (IESE)</p>
     <p class="paper-status">Working paper <span aria-hidden="true">&middot;</span> Draft available on request</p>
     <p class="paper-question">How do firms govern automated access to information that remains publicly available?</p>
+    <p class="paper-finding">Archived robots.txt policies reveal persistent differences in broad and agent-specific restrictions; public availability does not imply unrestricted machine access.</p>
     <div class="paper-links">
       <a href="#automated-access-abstract">Abstract <span aria-hidden="true">&rarr;</span></a>
       <a href="mailto:JZhao@iese.edu?subject=Automated%20data%20access%20paper%20draft%20request">Request draft <span aria-hidden="true">&rarr;</span></a>

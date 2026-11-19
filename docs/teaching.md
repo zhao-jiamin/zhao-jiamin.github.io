@@ -6,7 +6,7 @@ description: Teaching experience and training of Jiamin Zhao, Accounting Ph.D. C
 <header class="page-heading">
   <p class="eyebrow">Teaching</p>
   <h1>Teaching</h1>
-  <p>My teaching experience spans undergraduate accounting and graduate operations courses, alongside case-method training.</p>
+  <p>I use business cases to help students apply accounting concepts, reason through evidence, and exercise business judgment.</p>
 </header>
 
 <section class="academic-section" aria-labelledby="instructor">
@@ -49,4 +49,9 @@ description: Teaching experience and training of Jiamin Zhao, Accounting Ph.D. C
     </div>
     <span class="teaching-year">2025</span>
   </div>
+</section>
+
+<section class="academic-section teaching-interests" aria-labelledby="teaching-interests">
+  <h2 id="teaching-interests">Teaching Interests</h2>
+  <p>Cost accounting and management accounting, with case discussion that connects accounting analysis to managerial decisions.</p>
 </section>

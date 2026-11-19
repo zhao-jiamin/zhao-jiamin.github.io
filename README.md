@@ -13,9 +13,9 @@ with GitHub Pages.
 - Replace the navbar logo by saving the official IESE Business School logo at
   `docs/assets/iese-logo.png`. Keep that filename, or update the path in
   `overrides/main.html` if you choose a different asset.
-- Update the Google Search Console verification tag by replacing the
-  `PASTE_GOOGLE_SEARCH_CONSOLE_VERIFICATION_CODE_HERE` value in
-  `overrides/main.html` with the verification code from Google.
+- For Google Search Console, paste your real HTML-tag verification token into
+  `extra.google_site_verification` in `mkdocs.yml`. Leave it empty until then;
+  the generated site will not include a verification tag without a token.
 - Update the LinkedIn link in `overrides/main.html`.
 - Replace the CV by saving the latest PDF at `docs/assets/cv.pdf`.
 - Add or edit research papers in `docs/research.md`, then update the selected

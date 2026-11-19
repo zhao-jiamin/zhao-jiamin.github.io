@@ -47,8 +47,8 @@ body {
 
 .md-typeset {
   color: var(--site-body);
-  font-size: 0.82rem;
-  line-height: 1.7;
+  font-size: 0.85rem;
+  line-height: 1.68;
 }
 
 .md-typeset h1,
@@ -143,14 +143,14 @@ summary:focus-visible {
 .site-nav {
   align-items: center;
   display: flex;
-  gap: 1.9rem;
+  gap: 1.7rem;
   height: 100%;
 }
 
 .site-nav a {
   border-bottom: 2px solid transparent;
   color: var(--site-body);
-  font-size: 0.69rem;
+  font-size: 0.78rem;
   font-weight: 600;
   padding: 0.25rem 0;
   text-decoration: none;
@@ -168,13 +168,16 @@ summary:focus-visible {
 }
 
 .site-menu summary {
+  align-items: center;
   border: 1px solid var(--site-line);
   color: var(--site-ink);
   cursor: pointer;
-  font-size: 0.72rem;
+  display: flex;
+  font-size: 0.78rem;
   font-weight: 600;
   list-style: none;
-  padding: 0.35rem 0.6rem;
+  min-height: 2.2rem;
+  padding: 0.25rem 0.7rem;
 }
 
 .site-menu summary::-webkit-details-marker {
@@ -184,7 +187,6 @@ summary:focus-visible {
 .site-menu nav {
   background: #fff;
   border: 1px solid var(--site-line);
-  box-shadow: 0 12px 28px rgba(29, 43, 53, 0.1);
   display: flex;
   flex-direction: column;
   min-width: 10rem;
@@ -196,8 +198,8 @@ summary:focus-visible {
 
 .site-menu nav a {
   color: var(--site-ink);
-  font-size: 0.78rem;
-  padding: 0.52rem 0.7rem;
+  font-size: 0.82rem;
+  padding: 0.6rem 0.75rem;
   text-decoration: none;
 }
 
@@ -226,7 +228,7 @@ summary:focus-visible {
 .site-footer p,
 .site-footer a {
   color: var(--site-muted);
-  font-size: 0.68rem;
+  font-size: 0.74rem;
 }
 
 .site-footer p {
@@ -246,7 +248,7 @@ summary:focus-visible {
 .eyebrow,
 .md-typeset .eyebrow {
   color: var(--site-accent);
-  font-size: 0.64rem;
+  font-size: 0.68rem;
   font-weight: 700;
   letter-spacing: 0;
   margin: 0;
@@ -316,15 +318,15 @@ summary:focus-visible {
 .md-typeset .hero-statement {
   color: var(--site-ink);
   font-family: var(--site-serif);
-  font-size: 1.16rem;
+  font-size: 1.18rem;
   line-height: 1.43;
   margin: 0 0 0.9rem;
   text-wrap: pretty;
 }
 
 .md-typeset .hero-support {
-  font-size: 0.73rem;
-  line-height: 1.75;
+  font-size: 0.82rem;
+  line-height: 1.65;
   margin: 0;
   max-width: 30rem;
   text-wrap: pretty;
@@ -346,7 +348,7 @@ summary:focus-visible {
 .md-typeset .text-link,
 .md-typeset .section-link {
   color: var(--site-link);
-  font-size: 0.72rem;
+  font-size: 0.78rem;
   font-weight: 700;
   text-decoration: none;
 }
@@ -361,10 +363,6 @@ summary:focus-visible {
 .home-research {
   border-top: 1px solid var(--site-line);
   padding-top: 2.25rem;
-}
-
-.home-media {
-  margin-top: 3.3rem;
 }
 
 .section-heading {
@@ -395,10 +393,10 @@ summary:focus-visible {
 
 .md-typeset .research-preview__label {
   color: var(--site-accent);
-  font-size: 0.65rem;
+  font-size: 0.68rem;
   font-weight: 700;
   grid-column: 1;
-  grid-row: 1 / 5;
+  grid-row: 1;
   line-height: 1.5;
   margin: 0;
   text-transform: uppercase;
@@ -407,6 +405,10 @@ summary:focus-visible {
 .research-preview__label span {
   color: var(--site-muted);
   margin: 0 0.15rem;
+}
+
+.research-preview > :not(.research-preview__label) {
+  grid-column: 2;
 }
 
 .md-typeset .research-preview h3 {
@@ -425,39 +427,79 @@ summary:focus-visible {
 
 .md-typeset .research-preview__authors {
   color: var(--site-muted);
-  font-size: 0.7rem;
+  font-size: 0.77rem;
   margin: 0 0 0.45rem;
 }
 
 .md-typeset .research-preview__summary {
-  font-size: 0.76rem;
+  font-size: 0.82rem;
+  line-height: 1.6;
   margin: 0 0 0.55rem;
+  max-width: 46rem;
 }
 
-.home-note {
+.md-typeset .research-preview__award {
+  color: var(--site-body);
+  font-size: 0.76rem;
+  margin: 0 0 0.6rem;
+}
+
+.research-preview__award strong {
+  color: var(--site-accent);
+  margin-right: 0.35rem;
+}
+
+.home-highlights {
+  border-top: 1px solid var(--site-line);
+  margin-top: 2.7rem;
+  padding-top: 1.9rem;
+}
+
+.highlight-entry {
   border-top: 1px solid var(--site-line);
   display: grid;
-  gap: 2rem;
-  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
-  margin-top: 3.3rem;
-  padding-top: 2.1rem;
+  gap: 1.4rem;
+  grid-template-columns: 7rem minmax(0, 1fr);
+  padding: 0.8rem 0;
 }
 
-.md-typeset .home-note h2 {
-  font-size: 1.55rem;
-  line-height: 1.25;
-  margin: 0.35rem 0 0;
+.highlight-entry:last-child {
+  border-bottom: 1px solid var(--site-line);
 }
 
-.md-typeset .home-note > p {
-  font-size: 0.76rem;
+.md-typeset .highlight-entry p {
   margin: 0;
-  max-width: 31rem;
+}
+
+.md-typeset .highlight-entry .highlight-date {
+  color: var(--site-muted);
+  font-size: 0.7rem;
+  font-weight: 700;
+  padding-top: 0.2rem;
+  text-transform: uppercase;
+}
+
+.highlight-entry a {
+  color: var(--site-ink);
+  font-family: var(--site-serif);
+  font-size: 1.02rem;
+  font-weight: 600;
+}
+
+.highlight-entry a:hover {
+  color: var(--site-link);
+}
+
+.highlight-entry p span {
+  color: var(--site-muted);
+  display: block;
+  font-size: 0.74rem;
+  line-height: 1.5;
 }
 
 .page-heading {
-  margin: 3.4rem auto 2.7rem;
-  max-width: 53rem;
+  margin: 3.1rem auto 2.5rem;
+  max-width: 50rem;
 }
 
 .md-typeset .page-heading h1 {
@@ -468,16 +510,16 @@ summary:focus-visible {
 
 .md-typeset .page-heading > p:last-child:not(.eyebrow) {
   color: var(--site-muted);
-  font-size: 0.87rem;
+  font-size: 0.9rem;
   line-height: 1.7;
   margin: 0;
-  max-width: 43rem;
+  max-width: 41rem;
 }
 
 .academic-section,
 .research-more {
   margin: 0 auto;
-  max-width: 53rem;
+  max-width: 50rem;
 }
 
 .academic-section + .academic-section,
@@ -501,7 +543,7 @@ summary:focus-visible {
 
 .md-typeset .academic-section > .section-heading p {
   color: var(--site-muted);
-  font-size: 0.69rem;
+  font-size: 0.76rem;
   margin: 0;
 }
 
@@ -519,7 +561,7 @@ summary:focus-visible {
 
 .md-typeset .paper-kicker {
   color: var(--site-accent);
-  font-size: 0.65rem;
+  font-size: 0.68rem;
   font-weight: 700;
   margin: 0 0 0.35rem;
   text-transform: uppercase;
@@ -537,14 +579,36 @@ summary:focus-visible {
 .md-typeset .paper-status,
 .md-typeset .publication-source {
   color: var(--site-muted);
-  font-size: 0.72rem;
+  font-size: 0.78rem;
   margin: 0.1rem 0;
+}
+
+.md-typeset .paper-award {
+  color: var(--site-body);
+  font-size: 0.78rem;
+  margin: 0.8rem 0 0;
+}
+
+.paper-award strong {
+  color: var(--site-accent);
+  margin-right: 0.35rem;
 }
 
 .md-typeset .paper-question {
   color: var(--site-ink);
-  font-size: 0.79rem;
-  margin: 1rem 0 0.6rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+  line-height: 1.5;
+  margin: 1rem 0 0.4rem;
+  max-width: 42rem;
+  text-wrap: pretty;
+}
+
+.md-typeset .paper-finding {
+  font-size: 0.84rem;
+  line-height: 1.65;
+  margin: 0 0 0.7rem;
+  max-width: 42rem;
 }
 
 .paper-links {
@@ -561,17 +625,17 @@ summary:focus-visible {
 .md-typeset .paper-abstract h4 {
   color: var(--site-muted);
   font-family: inherit;
-  font-size: 0.65rem;
+  font-size: 0.68rem;
   font-weight: 700;
   margin: 0 0 0.35rem;
   text-transform: uppercase;
 }
 
 .md-typeset .paper-abstract p {
-  font-size: 0.75rem;
-  line-height: 1.75;
+  font-size: 0.82rem;
+  line-height: 1.68;
   margin: 0;
-  max-width: 47rem;
+  max-width: 40rem;
 }
 
 .paper-context {
@@ -582,7 +646,7 @@ summary:focus-visible {
 
 .md-typeset .paper-context p {
   color: var(--site-muted);
-  font-size: 0.69rem;
+  font-size: 0.76rem;
   line-height: 1.65;
   margin: 0.3rem 0;
 }
@@ -593,7 +657,7 @@ summary:focus-visible {
 }
 
 .md-typeset .research-more p {
-  font-size: 0.77rem;
+  font-size: 0.82rem;
   margin: 1.1rem 0 0.35rem;
 }
 
@@ -606,7 +670,7 @@ summary:focus-visible {
 
 .research-more p span {
   color: var(--site-muted);
-  font-size: 0.7rem;
+  font-size: 0.74rem;
 }
 
 .teaching-entry {
@@ -618,19 +682,19 @@ summary:focus-visible {
 }
 
 .md-typeset .teaching-entry h3 {
-  font-size: 1.16rem;
+  font-size: 1.2rem;
   margin: 0 0 0.3rem;
 }
 
 .md-typeset .teaching-entry p {
-  font-size: 0.75rem;
+  font-size: 0.82rem;
   margin: 0.1rem 0;
 }
 
 .md-typeset .teaching-entry .teaching-detail,
 .teaching-year {
   color: var(--site-muted);
-  font-size: 0.7rem;
+  font-size: 0.76rem;
 }
 
 .teaching-year {
@@ -640,8 +704,14 @@ summary:focus-visible {
 
 .md-typeset .publication-entry p,
 .md-typeset .insight-entry p {
-  font-size: 0.75rem;
+  font-size: 0.82rem;
   margin: 0.35rem 0;
+}
+
+.md-typeset .teaching-interests p {
+  font-size: 0.84rem;
+  margin: 0.9rem 0 0;
+  max-width: 38rem;
 }
 
 .insight-entry h2 a {
@@ -718,7 +788,7 @@ summary:focus-visible {
   }
 
   .md-typeset .hero-role {
-    font-size: 0.68rem;
+    font-size: 0.76rem;
   }
 
   .md-typeset .hero-portrait {
@@ -734,11 +804,11 @@ summary:focus-visible {
   }
 
   .md-typeset .hero-statement {
-    font-size: 1.02rem;
+    font-size: 1.08rem;
   }
 
   .md-typeset .hero-support {
-    font-size: 0.72rem;
+    font-size: 0.8rem;
   }
 
   .home-research {
@@ -765,16 +835,15 @@ summary:focus-visible {
   }
 
   .md-typeset .research-preview h3 {
-    font-size: 1.13rem;
+    font-size: 1.18rem;
   }
 
-  .home-note {
+  .highlight-entry {
     display: block;
-    margin-top: 2.3rem;
   }
 
-  .md-typeset .home-note > p {
-    margin-top: 1rem;
+  .md-typeset .highlight-entry .highlight-date {
+    margin-bottom: 0.2rem;
   }
 
   .page-heading {
@@ -821,14 +890,14 @@ summary:focus-visible {
   }
 
   .md-typeset .hero-statement {
-    font-size: 0.94rem;
+    font-size: 0.99rem;
     line-height: 1.36;
     margin-bottom: 0.5rem;
   }
 
   .md-typeset .hero-support {
-    font-size: 0.68rem;
-    line-height: 1.55;
+    font-size: 0.76rem;
+    line-height: 1.6;
   }
 
   .hero-links {
