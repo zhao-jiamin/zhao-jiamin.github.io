@@ -5,7 +5,6 @@ description: Jiamin Zhao is an Accounting Ph.D. Candidate at IESE Business Schoo
 
 <div class="home-hero">
   <div class="hero-identity">
-    <p class="eyebrow">Accounting research <span aria-hidden="true">/</span> IESE Business School</p>
     <h1>Jiamin Zhao</h1>
     <p class="hero-role">Ph.D. Candidate in Accounting<br>IESE Business School</p>
   </div>
@@ -15,11 +14,14 @@ description: Jiamin Zhao is an Accounting Ph.D. Candidate at IESE Business Schoo
   <div class="hero-message">
     <p class="hero-statement">I study how firms respond when stakeholders and emerging technologies reshape the flow and use of corporate information.</p>
     <p class="hero-support">My research focuses on corporate disclosure, public activism, and the governance of digital information access.</p>
-    <div class="hero-links">
-      <a href="research/">Research <span aria-hidden="true">&rarr;</span></a>
-      <a href="assets/cv.pdf">CV <span aria-hidden="true">&rarr;</span></a>
-      <a href="mailto:JZhao@iese.edu">Contact <span aria-hidden="true">&rarr;</span></a>
-    </div>
+    <section class="hero-references" aria-labelledby="references-heading">
+      <h2 id="references-heading">References</h2>
+      <ul>
+        <li><a href="https://www.iese.edu/faculty-research/faculty/gaizka-ormazabal/">Gaizka Ormazabal</a><a href="mailto:GOrmazabal@iese.edu">GOrmazabal@iese.edu</a></li>
+        <li><a href="https://www.iese.edu/faculty-research/faculty/igor-kadach/">Igor Kadach</a><a href="mailto:IKadach@iese.edu">IKadach@iese.edu</a></li>
+        <li><a href="https://www.iese.edu/faculty-research/faculty/pietro-bonetti/">Pietro Bonetti</a><a href="mailto:PBonetti@iese.edu">PBonetti@iese.edu</a></li>
+      </ul>
+    </section>
   </div>
 </div>
 
