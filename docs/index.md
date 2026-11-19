@@ -47,7 +47,7 @@ description: Jiamin Zhao is an Accounting Ph.D. Candidate at IESE Business Schoo
   <article class="research-preview">
     <p class="research-preview__label">Working paper</p>
     <h3><a href="research/#ngo-activism">NGO Activism, Corporate Disclosure, and Real Responses</a></h3>
-    <p class="research-preview__authors">With Simon Xu (Stanford) <span aria-hidden="true">&middot;</span> October 2026 draft</p>
+    <p class="research-preview__authors">With <a href="https://www.simondzxu.com/home">Simon Xu</a> (Stanford) <span aria-hidden="true">&middot;</span> October 2026 draft</p>
     <p class="research-preview__summary">Environmental NGO targeting is associated with more managerial discussion of climate-transition topics relative to renewable-energy technologies, but lower subsequent demand for specialized green-technology workers.</p>
     <div class="paper-links">
       <a href="assets/ngo-activism-paper.pdf">Paper (PDF) <span aria-hidden="true">&rarr;</span></a>
@@ -58,7 +58,7 @@ description: Jiamin Zhao is an Accounting Ph.D. Candidate at IESE Business Schoo
   <article class="research-preview">
     <p class="research-preview__label">Working paper</p>
     <h3><a href="research/#automated-access">How Firms Govern Automated Access to Corporate Information: Evidence from Robots.txt</a></h3>
-    <p class="research-preview__authors">With Long Cheng (IESE) and Igor Kadach (IESE) <span aria-hidden="true">&middot;</span> November 2026 draft</p>
+    <p class="research-preview__authors">With <a href="https://www.iese.edu/phd-in-management/students/long-cheng/">Long Cheng</a> (IESE) and <a href="https://www.iese.edu/faculty-research/faculty/igor-kadach/">Igor Kadach</a> (IESE) <span aria-hidden="true">&middot;</span> November 2026 draft</p>
     <p class="research-preview__summary">Archived robots.txt records show widespread general access restrictions, while prior crawler-specific policies are associated with later restrictions on newly introduced AI-related identifiers.</p>
     <div class="paper-links">
       <a href="assets/automated-access-paper.pdf">Paper (PDF) <span aria-hidden="true">&rarr;</span></a>

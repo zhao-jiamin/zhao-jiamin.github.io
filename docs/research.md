@@ -55,7 +55,7 @@ description: Research by Jiamin Zhao on stakeholder pressure, corporate disclosu
   <article class="research-paper" id="ngo-activism">
     <p class="paper-kicker">Working paper</p>
     <h3>NGO Activism, Corporate Disclosure, and Real Responses</h3>
-    <p class="paper-authors">With Simon Xu (Stanford)</p>
+    <p class="paper-authors">With <a href="https://www.simondzxu.com/home">Simon Xu</a> (Stanford)</p>
     <p class="paper-status">Working paper <span aria-hidden="true">&middot;</span> October 2026 draft</p>
     <p class="paper-question">How is environmental NGO targeting related to climate-transition disclosure and firms' demand for green-technology workers?</p>
     <p class="paper-finding">Environmental targeting is associated with more managerial disclosure about climate-transition topics relative to renewable-energy technologies, and with lower subsequent demand for specialized green-technology workers but not environmental compliance workers.</p>
@@ -67,12 +67,26 @@ description: Research by Jiamin Zhao on stakeholder pressure, corporate disclosu
       <h4>Abstract</h4>
       <p>We examine how nongovernmental organization (NGO) activism relates to corporate disclosure and substantive responses. Using firm-specific NGO targeting events, earnings-call transcripts, and job-posting data in the United States from 2017 to 2023, we find that environmental targeting is associated with increased managerial disclosure about climate-transition topics relative to renewable-energy technologies. In contrast, environmental targeting is associated with lower subsequent demand for specialized green-technology workers, but not environmental compliance workers. These findings highlight how firms' near-term communication and subsequent demand for specialized technological labor can respond differently to NGO scrutiny.</p>
     </div>
+    <div class="paper-results" aria-labelledby="ngo-table-5">
+      <h4 id="ngo-table-5">Table 5: Timing of disclosure responses</h4>
+      <p>The main associations appear in the quarter after direct NGO targeting, with no statistically detectable corresponding associations before or during the targeting quarter.</p>
+      <div class="paper-results__scroll">
+        <table>
+          <thead><tr><th scope="col">Selected coefficient</th><th scope="col">t - 1</th><th scope="col">t</th><th scope="col">t + 1</th><th scope="col">t + 2</th></tr></thead>
+          <tbody>
+            <tr><th scope="row">Climate-transition minus renewable-technology disclosure</th><td data-period="t - 1">0.0036</td><td data-period="t">0.0041</td><td data-period="t + 1"><strong>0.0101***</strong></td><td data-period="t + 2">0.0067*</td></tr>
+            <tr><th scope="row">Labor-operations disclosure</th><td data-period="t - 1">0.0014</td><td data-period="t">0.0021</td><td data-period="t + 1"><strong>-0.0029**</strong></td><td data-period="t + 2">0.0010</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="paper-results__note">Selected estimates; * p &lt; 0.10, ** p &lt; 0.05, *** p &lt; 0.01. Associations do not establish causality. <a href="../assets/ngo-activism-paper.pdf#page=42">Full Table 5 and notes (PDF, p. 41)</a></p>
+    </div>
   </article>
 
   <article class="research-paper" id="automated-access">
     <p class="paper-kicker">Working paper</p>
     <h3>How Firms Govern Automated Access to Corporate Information: Evidence from Robots.txt</h3>
-    <p class="paper-authors">With Long Cheng (IESE) and Igor Kadach (IESE)</p>
+    <p class="paper-authors">With <a href="https://www.iese.edu/phd-in-management/students/long-cheng/">Long Cheng</a> (IESE) and <a href="https://www.iese.edu/faculty-research/faculty/igor-kadach/">Igor Kadach</a> (IESE)</p>
     <p class="paper-status">Working paper <span aria-hidden="true">&middot;</span> November 2026 draft</p>
     <p class="paper-question">How do firms govern automated access to publicly available corporate information?</p>
     <p class="paper-finding">General access restrictions are widespread in archived robots.txt records. Historical crawler-specific policies are associated with later restrictions on newly introduced AI-related identifiers, though the evidence is less conclusive under stricter comparisons.</p>
@@ -109,7 +123,7 @@ description: Research by Jiamin Zhao on stakeholder pressure, corporate disclosu
   <h2 id="work-in-progress">Work in Progress</h2>
   <article class="research-paper" id="data-licensing">
     <h3>From Open Access to Data Licensing: Legal Protection and the Monetization of Corporate Information</h3>
-    <p class="paper-authors">With Long Cheng (IESE)</p>
+    <p class="paper-authors">With <a href="https://www.iese.edu/phd-in-management/students/long-cheng/">Long Cheng</a> (IESE)</p>
     <p class="paper-question">How do legal protection and data value shape firms' choices between open access and data licensing?</p>
     <div class="paper-abstract">
       <h4>Abstract</h4>
