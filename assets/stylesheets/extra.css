@@ -279,7 +279,7 @@ summary:focus-visible {
 .md-typeset .hero-identity h1 {
   font-size: 3.35rem;
   line-height: 1.08;
-  margin: 0.65rem 0 0.8rem;
+  margin: 0 0 0.8rem;
 }
 
 .md-typeset .hero-role {
@@ -332,18 +332,65 @@ summary:focus-visible {
   text-wrap: pretty;
 }
 
-.hero-links,
 .paper-links {
   display: flex;
   flex-wrap: wrap;
   gap: 0.65rem 1.5rem;
 }
 
-.hero-links {
-  margin-top: 1.25rem;
+.hero-references {
+  border-top: 1px solid var(--site-line);
+  margin-top: 1.3rem;
+  padding-top: 0.75rem;
 }
 
-.md-typeset .hero-links a,
+.md-typeset .hero-references h2 {
+  color: var(--site-muted);
+  font-family: inherit;
+  font-size: 0.68rem;
+  font-weight: 700;
+  margin: 0 0 0.55rem;
+  text-transform: uppercase;
+}
+
+.md-typeset .hero-references ul {
+  display: grid;
+  gap: 0.55rem;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.md-typeset .hero-references li {
+  font-size: 0.69rem;
+  line-height: 1.45;
+  margin: 0;
+  min-width: 0;
+}
+
+.md-typeset .hero-references a {
+  display: block;
+  overflow-wrap: anywhere;
+}
+
+.md-typeset .hero-references li a:first-child {
+  color: var(--site-ink);
+  font-weight: 600;
+  text-decoration: underline;
+  text-decoration-color: var(--site-line);
+  text-underline-offset: 0.2em;
+}
+
+.md-typeset .hero-references li a:last-child {
+  color: var(--site-muted);
+}
+
+.md-typeset .hero-references a:hover {
+  color: var(--site-accent);
+  text-decoration: underline;
+}
+
 .md-typeset .paper-links a,
 .md-typeset .text-link,
 .md-typeset .section-link {
@@ -353,7 +400,6 @@ summary:focus-visible {
   text-decoration: none;
 }
 
-.md-typeset .hero-links a:hover,
 .md-typeset .paper-links a:hover,
 .md-typeset .text-link:hover,
 .md-typeset .section-link:hover {
@@ -918,7 +964,7 @@ summary:focus-visible {
   .md-typeset .hero-identity h1 {
     font-size: 2.1rem;
     line-height: 1.1;
-    margin: 0.45rem 0 0.55rem;
+    margin: 0 0 0.55rem;
   }
 
   .md-typeset .hero-role {
@@ -943,6 +989,10 @@ summary:focus-visible {
 
   .md-typeset .hero-support {
     font-size: 0.8rem;
+  }
+
+  .md-typeset .hero-references ul {
+    grid-template-columns: 1fr;
   }
 
   .home-research {
@@ -1063,10 +1113,6 @@ summary:focus-visible {
     row-gap: 0.7rem;
   }
 
-  .hero-identity .eyebrow {
-    display: none;
-  }
-
   .md-typeset .hero-identity h1 {
     font-size: 1.82rem;
     margin: 0 0 0.35rem;
@@ -1085,10 +1131,6 @@ summary:focus-visible {
   .md-typeset .hero-support {
     font-size: 0.76rem;
     line-height: 1.6;
-  }
-
-  .hero-links {
-    margin-top: 0.65rem;
   }
 }
 
