@@ -54,18 +54,18 @@ description: Research by Jiamin Zhao on stakeholder pressure, corporate disclosu
 
   <article class="research-paper" id="ngo-activism">
     <p class="paper-kicker">Working paper</p>
-    <h3>NGO Activism and the Supply of Corporate Information</h3>
+    <h3>NGO Activism, Corporate Disclosure, and Real Responses</h3>
     <p class="paper-authors">With Simon Xu (Stanford)</p>
-    <p class="paper-status">Working paper <span aria-hidden="true">&middot;</span> Draft available on request</p>
+    <p class="paper-status">Working paper <span aria-hidden="true">&middot;</span> October 2026 draft</p>
     <p class="paper-question">How is environmental NGO targeting related to climate-transition disclosure and firms' demand for green-technology workers?</p>
-    <p class="paper-finding">Targeting is associated with more discussion of climate-transition projects and infrastructure relative to renewable technologies in earnings calls, alongside lower demand for specialized green-technology workers.</p>
+    <p class="paper-finding">Environmental targeting is associated with more managerial disclosure about climate-transition topics relative to renewable-energy technologies, and with lower subsequent demand for specialized green-technology workers but not environmental compliance workers.</p>
     <div class="paper-links">
+      <a href="../assets/ngo-activism-paper.pdf">Paper (PDF) <span aria-hidden="true">&rarr;</span></a>
       <a href="#ngo-abstract">Abstract <span aria-hidden="true">&rarr;</span></a>
-      <a href="mailto:JZhao@iese.edu?subject=NGO%20activism%20paper%20draft%20request">Request draft <span aria-hidden="true">&rarr;</span></a>
     </div>
     <div class="paper-abstract" id="ngo-abstract">
       <h4>Abstract</h4>
-      <p>This paper examines how NGO activism shapes corporate disclosure and firms' demand for green-technology workers. Environmental NGO targeting is associated with greater discussion of climate-transition projects and infrastructure relative to renewable technologies in subsequent earnings calls, alongside lower demand for specialized green-technology workers. The findings suggest that external stakeholder pressure may shape both investor-facing communication and corporate hiring decisions, potentially leading to divergent responses in environmental disclosure and technological activities.</p>
+      <p>We examine how nongovernmental organization (NGO) activism relates to corporate disclosure and substantive responses. Using firm-specific NGO targeting events, earnings-call transcripts, and job-posting data in the United States from 2017 to 2023, we find that environmental targeting is associated with increased managerial disclosure about climate-transition topics relative to renewable-energy technologies. In contrast, environmental targeting is associated with lower subsequent demand for specialized green-technology workers, but not environmental compliance workers. These findings highlight how firms' near-term communication and subsequent demand for specialized technological labor can respond differently to NGO scrutiny.</p>
     </div>
   </article>
 

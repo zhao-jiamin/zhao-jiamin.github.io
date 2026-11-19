@@ -23,6 +23,9 @@ with GitHub Pages.
   a public draft is available.
 - Replace the public job market paper draft at `docs/assets/job-market-paper.pdf`
   to update the existing PDF links without changing the page content.
+- Replace the public NGO-activism paper at `docs/assets/ngo-activism-paper.pdf`
+  to update its download link; revise the title and abstract in
+  `docs/research.md` if the paper's content changes.
 - Replace the coauthored automated-access paper at
   `docs/assets/automated-access-paper.pdf`. Its Figure 1 and Figure 4 images
   are in `docs/assets/images/automated-access-figure-1.png` and
