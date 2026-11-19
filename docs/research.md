@@ -17,7 +17,7 @@ description: Research by Jiamin Zhao on stakeholder pressure, corporate disclosu
   <article class="research-paper research-paper--featured" id="job-market-paper">
     <p class="paper-kicker">Job Market Paper</p>
     <h3>Public Activism and Labor-Related Corporate Disclosure</h3>
-    <p class="paper-authors">Jiamin Zhao <span aria-hidden="true">&middot;</span> Single-authored</p>
+    <p class="paper-authors">Single-authored</p>
     <p class="paper-status">Working paper <span aria-hidden="true">&middot;</span> October 2026 draft</p>
     <p class="paper-award"><strong>Award</strong> The Sue Hrasky Best PhD Paper Prize, BAFA, 2026.</p>
     <p class="paper-question">How does local public activism influence corporate disclosure when it does not directly target the firm?</p>
@@ -55,7 +55,7 @@ description: Research by Jiamin Zhao on stakeholder pressure, corporate disclosu
   <article class="research-paper" id="ngo-activism">
     <p class="paper-kicker">Working paper</p>
     <h3>NGO Activism and the Supply of Corporate Information</h3>
-    <p class="paper-authors">Jiamin Zhao and Simon Xu (Stanford)</p>
+    <p class="paper-authors">With Simon Xu (Stanford)</p>
     <p class="paper-status">Working paper <span aria-hidden="true">&middot;</span> Draft available on request</p>
     <p class="paper-question">How is environmental NGO targeting related to climate-transition disclosure and firms' demand for green-technology workers?</p>
     <p class="paper-finding">Targeting is associated with more discussion of climate-transition projects and infrastructure relative to renewable technologies in earnings calls, alongside lower demand for specialized green-technology workers.</p>
@@ -72,7 +72,7 @@ description: Research by Jiamin Zhao on stakeholder pressure, corporate disclosu
   <article class="research-paper" id="automated-access">
     <p class="paper-kicker">Working paper</p>
     <h3>How Firms Govern Automated Access to Corporate Information: Evidence from Robots.txt</h3>
-    <p class="paper-authors">Long Cheng (IESE), Igor Kadach (IESE), and Jiamin Zhao</p>
+    <p class="paper-authors">With Long Cheng (IESE) and Igor Kadach (IESE)</p>
     <p class="paper-status">Working paper <span aria-hidden="true">&middot;</span> November 2026 draft</p>
     <p class="paper-question">How do firms govern automated access to publicly available corporate information?</p>
     <p class="paper-finding">General access restrictions are widespread in archived robots.txt records. Historical crawler-specific policies are associated with later restrictions on newly introduced AI-related identifiers, though the evidence is less conclusive under stricter comparisons.</p>
@@ -89,15 +89,15 @@ description: Research by Jiamin Zhao on stakeholder pressure, corporate disclosu
       <div class="paper-figures__grid">
         <figure class="paper-figure">
           <a class="paper-figure__image" href="../assets/images/automated-access-figure-1.png" target="_blank" rel="noopener" aria-label="View Figure 1 at full size">
-            <img src="../assets/images/automated-access-figure-1.png" alt="Figure 1 line chart showing historical coverage of archived corporate robots.txt files from 2001 to 2024" width="1450" height="780" loading="lazy" decoding="async">
+            <img src="../assets/images/automated-access-figure-1.png" alt="Figure 1 line chart of quarterly archived robots.txt coverage for U.S. Compustat firms from 2001 to 2024" width="1450" height="780" loading="lazy" decoding="async">
           </a>
-          <figcaption><strong>Figure 1. Historical coverage of corporate robots.txt files.</strong> Quarterly archived robots.txt coverage for U.S. Compustat firms.</figcaption>
+          <figcaption><strong>Figure 1. Historical coverage of corporate robots.txt files.</strong></figcaption>
         </figure>
         <figure class="paper-figure">
           <a class="paper-figure__image" href="../assets/images/automated-access-figure-4.png" target="_blank" rel="noopener" aria-label="View Figure 4 at full size">
-            <img src="../assets/images/automated-access-figure-4.png" alt="Figure 4 bar chart of newly observed user-agent types by quarter, including a post-2022 rise in the archived sample" width="1450" height="720" loading="lazy" decoding="async">
+            <img src="../assets/images/automated-access-figure-4.png" alt="Figure 4 bar chart of first observations of new user-agent identifiers by quarter in the archived sample" width="1450" height="720" loading="lazy" decoding="async">
           </a>
-          <figcaption><strong>Figure 4. Newly observed user-agent types.</strong> First observations of new user-agent identifiers in the archived sample.</figcaption>
+          <figcaption><strong>Figure 4. Newly observed user-agent types.</strong></figcaption>
         </figure>
       </div>
     </div>
@@ -109,7 +109,7 @@ description: Research by Jiamin Zhao on stakeholder pressure, corporate disclosu
   <h2 id="work-in-progress">Work in Progress</h2>
   <article class="research-paper" id="data-licensing">
     <h3>From Open Access to Data Licensing: Legal Protection and the Monetization of Corporate Information</h3>
-    <p class="paper-authors">Jiamin Zhao and Long Cheng (IESE)</p>
+    <p class="paper-authors">With Long Cheng (IESE)</p>
     <p class="paper-question">How do legal protection and data value shape firms' choices between open access and data licensing?</p>
     <div class="paper-abstract">
       <h4>Abstract</h4>

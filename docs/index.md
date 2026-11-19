@@ -35,7 +35,7 @@ description: Jiamin Zhao is an Accounting Ph.D. Candidate at IESE Business Schoo
   <article class="research-preview">
     <p class="research-preview__label">Job Market Paper <span aria-hidden="true">/</span> Working paper</p>
     <h3><a href="research/#job-market-paper">Public Activism and Labor-Related Corporate Disclosure</a></h3>
-    <p class="research-preview__authors">Jiamin Zhao <span aria-hidden="true">&middot;</span> October 2026 draft</p>
+    <p class="research-preview__authors">Single-authored <span aria-hidden="true">&middot;</span> October 2026 draft</p>
     <p class="research-preview__summary">Greater local labor-related public activism is associated with less discussion of current labor operating conditions relative to talent-management information in earnings calls.</p>
     <p class="research-preview__award"><strong>Award</strong> The Sue Hrasky Best PhD Paper Prize, BAFA, 2026.</p>
     <div class="paper-links">
@@ -47,7 +47,7 @@ description: Jiamin Zhao is an Accounting Ph.D. Candidate at IESE Business Schoo
   <article class="research-preview">
     <p class="research-preview__label">Working paper</p>
     <h3><a href="research/#ngo-activism">NGO Activism and the Supply of Corporate Information</a></h3>
-    <p class="research-preview__authors">Jiamin Zhao and Simon Xu (Stanford) <span aria-hidden="true">&middot;</span> Draft available on request</p>
+    <p class="research-preview__authors">With Simon Xu (Stanford) <span aria-hidden="true">&middot;</span> Draft available on request</p>
     <p class="research-preview__summary">Environmental NGO targeting is associated with more transition-project discussion, relative to renewable technologies, and lower demand for specialized green-technology workers.</p>
     <a class="text-link" href="research/#ngo-abstract">Abstract <span aria-hidden="true">&rarr;</span></a>
   </article>
@@ -55,7 +55,7 @@ description: Jiamin Zhao is an Accounting Ph.D. Candidate at IESE Business Schoo
   <article class="research-preview">
     <p class="research-preview__label">Working paper</p>
     <h3><a href="research/#automated-access">How Firms Govern Automated Access to Corporate Information: Evidence from Robots.txt</a></h3>
-    <p class="research-preview__authors">Long Cheng (IESE), Igor Kadach (IESE), and Jiamin Zhao <span aria-hidden="true">&middot;</span> November 2026 draft</p>
+    <p class="research-preview__authors">With Long Cheng (IESE) and Igor Kadach (IESE) <span aria-hidden="true">&middot;</span> November 2026 draft</p>
     <p class="research-preview__summary">Archived robots.txt records show widespread general access restrictions, while prior crawler-specific policies are associated with later restrictions on newly introduced AI-related identifiers.</p>
     <div class="paper-links">
       <a href="assets/automated-access-paper.pdf">Paper (PDF) <span aria-hidden="true">&rarr;</span></a>
