@@ -71,7 +71,7 @@ description: Research by Jiamin Zhao on stakeholder pressure, corporate disclosu
       <a class="paper-figure__image" href="../assets/images/ngo-table-5-panel-a.png" target="_blank" rel="noopener" aria-label="View Table 5 Panel A at full size">
         <img src="../assets/images/ngo-table-5-panel-a.png" alt="Table 5 Panel A, environmental targeting: climate-transition minus renewable-technology disclosure is 0.0101 at t + 1 (p &lt; 0.01); coefficients for t - 1, t, and t + 2 are 0.0036, 0.0041, and 0.0067." width="1431" height="756" loading="lazy" decoding="async">
       </a>
-      <figcaption>Selected estimates; * p &lt; 0.10, ** p &lt; 0.05, *** p &lt; 0.01. <a href="../assets/ngo-activism-paper.pdf#page=42">Full Table 5 and notes (PDF, p. 41)</a></figcaption>
+      <figcaption><a href="../assets/ngo-activism-paper.pdf#page=42">Full Table 5 and notes (PDF, p. 41)</a></figcaption>
     </figure>
   </article>
 
