@@ -698,60 +698,10 @@ summary:focus-visible {
   max-width: 40rem;
 }
 
-.paper-results {
+.ngo-table-figure {
   border-top: 1px solid var(--site-line);
   margin-top: 1.4rem;
   padding-top: 1rem;
-}
-
-.md-typeset .paper-results h4 {
-  color: var(--site-ink);
-  font-family: var(--site-serif);
-  font-size: 1rem;
-  margin: 0 0 0.4rem;
-}
-
-.md-typeset .paper-results p {
-  font-size: 0.78rem;
-  line-height: 1.6;
-  margin: 0 0 0.7rem;
-  max-width: 42rem;
-}
-
-.paper-results__scroll {
-  overflow-x: auto;
-}
-
-.md-typeset .paper-results table {
-  border-collapse: collapse;
-  font-size: 0.72rem;
-  min-width: 32rem;
-  width: 100%;
-}
-
-.paper-results th,
-.paper-results td {
-  border-bottom: 1px solid var(--site-line);
-  padding: 0.55rem 0.6rem;
-  text-align: right;
-  white-space: nowrap;
-}
-
-.paper-results th:first-child {
-  text-align: left;
-  white-space: normal;
-  width: 42%;
-}
-
-.paper-results thead th {
-  color: var(--site-muted);
-  font-weight: 600;
-}
-
-.md-typeset .paper-results .paper-results__note {
-  color: var(--site-muted);
-  font-size: 0.7rem;
-  margin-top: 0.6rem;
 }
 
 .paper-figures {
@@ -1046,55 +996,6 @@ summary:focus-visible {
 
   .paper-figures__grid {
     grid-template-columns: 1fr;
-  }
-
-  .paper-results__scroll {
-    overflow: visible;
-  }
-
-  .md-typeset .paper-results table,
-  .paper-results tbody,
-  .paper-results tr,
-  .paper-results th,
-  .paper-results td {
-    display: block;
-    min-width: 0;
-    width: 100%;
-  }
-
-  .paper-results thead {
-    clip-path: inset(50%);
-    height: 1px;
-    overflow: hidden;
-    position: absolute;
-    white-space: nowrap;
-    width: 1px;
-  }
-
-  .paper-results tbody tr {
-    display: grid;
-    gap: 0.15rem;
-    grid-template-columns: repeat(4, minmax(0, 1fr));
-    padding: 0.6rem 0;
-  }
-
-  .paper-results tbody th:first-child {
-    border: 0;
-    grid-column: 1 / -1;
-    padding: 0 0 0.3rem;
-  }
-
-  .paper-results td {
-    border: 0;
-    padding: 0;
-    text-align: left;
-  }
-
-  .paper-results td::before {
-    color: var(--site-muted);
-    content: attr(data-period);
-    display: block;
-    font-size: 0.65rem;
   }
 
   .teaching-entry {

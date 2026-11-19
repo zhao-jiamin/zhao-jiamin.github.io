@@ -67,20 +67,12 @@ description: Research by Jiamin Zhao on stakeholder pressure, corporate disclosu
       <h4>Abstract</h4>
       <p>We examine how nongovernmental organization (NGO) activism relates to corporate disclosure and substantive responses. Using firm-specific NGO targeting events, earnings-call transcripts, and job-posting data in the United States from 2017 to 2023, we find that environmental targeting is associated with increased managerial disclosure about climate-transition topics relative to renewable-energy technologies. In contrast, environmental targeting is associated with lower subsequent demand for specialized green-technology workers, but not environmental compliance workers. These findings highlight how firms' near-term communication and subsequent demand for specialized technological labor can respond differently to NGO scrutiny.</p>
     </div>
-    <div class="paper-results" aria-labelledby="ngo-table-5">
-      <h4 id="ngo-table-5">Table 5: Timing of disclosure responses</h4>
-      <p>The main associations appear in the quarter after direct NGO targeting, with no statistically detectable corresponding associations before or during the targeting quarter.</p>
-      <div class="paper-results__scroll">
-        <table>
-          <thead><tr><th scope="col">Selected coefficient</th><th scope="col">t - 1</th><th scope="col">t</th><th scope="col">t + 1</th><th scope="col">t + 2</th></tr></thead>
-          <tbody>
-            <tr><th scope="row">Climate-transition minus renewable-technology disclosure</th><td data-period="t - 1">0.0036</td><td data-period="t">0.0041</td><td data-period="t + 1"><strong>0.0101***</strong></td><td data-period="t + 2">0.0067*</td></tr>
-            <tr><th scope="row">Labor-operations disclosure</th><td data-period="t - 1">0.0014</td><td data-period="t">0.0021</td><td data-period="t + 1"><strong>-0.0029**</strong></td><td data-period="t + 2">0.0010</td></tr>
-          </tbody>
-        </table>
-      </div>
-      <p class="paper-results__note">Selected estimates; * p &lt; 0.10, ** p &lt; 0.05, *** p &lt; 0.01. Associations do not establish causality. <a href="../assets/ngo-activism-paper.pdf#page=42">Full Table 5 and notes (PDF, p. 41)</a></p>
-    </div>
+    <figure class="paper-figure ngo-table-figure" id="ngo-table-5">
+      <a class="paper-figure__image" href="../assets/images/ngo-table-5-panel-a.png" target="_blank" rel="noopener" aria-label="View Table 5 Panel A at full size">
+        <img src="../assets/images/ngo-table-5-panel-a.png" alt="Table 5 Panel A, environmental targeting: climate-transition minus renewable-technology disclosure is 0.0101 at t + 1 (p &lt; 0.01); coefficients for t - 1, t, and t + 2 are 0.0036, 0.0041, and 0.0067." width="1431" height="756" loading="lazy" decoding="async">
+      </a>
+      <figcaption>Selected estimates; * p &lt; 0.10, ** p &lt; 0.05, *** p &lt; 0.01. <a href="../assets/ngo-activism-paper.pdf#page=42">Full Table 5 and notes (PDF, p. 41)</a></figcaption>
+    </figure>
   </article>
 
   <article class="research-paper" id="automated-access">

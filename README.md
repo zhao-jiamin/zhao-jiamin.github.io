@@ -25,7 +25,8 @@ with GitHub Pages.
   to update the existing PDF links without changing the page content.
 - Replace the public NGO-activism paper at `docs/assets/ngo-activism-paper.pdf`
   to update its download link; revise the title and abstract in
-  `docs/research.md` if the paper's content changes.
+  `docs/research.md` if the paper's content changes. If Table 5 changes, also
+  replace its Panel A image at `docs/assets/images/ngo-table-5-panel-a.png`.
 - Replace the coauthored automated-access paper at
   `docs/assets/automated-access-paper.pdf`. Its Figure 1 and Figure 4 images
   are in `docs/assets/images/automated-access-figure-1.png` and
